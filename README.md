@@ -13,32 +13,6 @@ This repository contains an implementation of a **Multi-Layer Perceptron (MLP)**
 
 ---
 
-## Repository Structure
-
-da6401_assignment_1/
-│
-├── src/
-│ ├── train.py # Training script
-│ ├── inference.py # Model evaluation and error analysis
-│ ├── data_exploration.py # Dataset visualization
-│ │
-│ ├── ann/
-│ │ ├── neural_network.py
-│ │ ├── neural_layer.py
-│ │ ├── activations.py
-│ │ ├── objective_functions.py
-│ │ └── optimizers.py
-│ │
-│ └── utils/
-│ └── data_loader.py
-│
-├── sweep.yaml # Hyperparameter sweep configuration
-├── confusion_matrix.png
-├── misclassified_examples.png
-└── README.md
-
----
-
 ## Installation
 
 Create a Python environment and install the required packages:
