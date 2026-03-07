@@ -1,3 +1,4 @@
+wandb/
+experiments/
 __pycache__/
-*.pyc
-src/experiments/
+*.npy models

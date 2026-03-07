@@ -109,11 +109,7 @@ The configuration that performed best on MNIST (**Nadam + ReLU**) also achieved 
 
 ## Weights & Biases Report
 
-Full experiment analysis and visualizations:
-
-
 The report includes:
-
 - dataset exploration  
 - hyperparameter sweep analysis  
 - optimizer comparison  
@@ -133,8 +129,3 @@ The report includes:
 - Fashion-MNIST requires deeper architectures due to increased dataset complexity.
 
 ---
-
-## Author
-
-DA6401 – Introduction to Deep Learning  
-Assignment 1 – Multi-Layer Perceptron Implementation using NumPy
