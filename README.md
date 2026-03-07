@@ -2,8 +2,12 @@
 ## Multi-Layer Perceptron for Image Classification (NumPy)
 
 Project by:
-Sumedh Kulkarni
-NA21B041
+- Sumedh Kulkarni
+- NA21B041
+
+[Wandb report link](https://wandb.ai/sumedh2-1203-indian-institute-of-technology-madras/da6401_test/reports/DA6401-Assignment-1--VmlldzoxNjEzNDIzNg)
+
+[Github link](https://github.com/Sumedh-1203/DA6401_Assignment1.git)
 
 This repository contains an implementation of a **Multi-Layer Perceptron (MLP)** built entirely using **NumPy** for image classification on the **MNIST** and **Fashion-MNIST** datasets. The project includes implementations of forward propagation, backpropagation, different optimizers, activation functions, weight initialization strategies, and experiment tracking using **Weights & Biases (W&B)**.
 
@@ -132,8 +136,6 @@ The configuration that performed best on MNIST (**Nadam + ReLU**) also achieved 
 ## Weights & Biases Report
 
 Full experiment analysis and visualizations:
-
-https://wandb.ai/sumedh2-1203-indian-institute-of-technology-madras/da6401_test/reports/DA6401-Assignment-1--VmlldzoxNjEzNDIzNg
 
 
 The report includes:
