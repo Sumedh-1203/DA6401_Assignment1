@@ -1,0 +1,11 @@
+{"time":"2026-03-07T19:12:37.2577487+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-07T19:12:37.9285306+05:30","level":"INFO","msg":"stream: created new stream","id":"awzesqoh"}
+{"time":"2026-03-07T19:12:37.9285306+05:30","level":"INFO","msg":"handler: started","stream_id":"awzesqoh"}
+{"time":"2026-03-07T19:12:37.9291914+05:30","level":"INFO","msg":"stream: started","id":"awzesqoh"}
+{"time":"2026-03-07T19:12:37.9291914+05:30","level":"INFO","msg":"writer: started","stream_id":"awzesqoh"}
+{"time":"2026-03-07T19:12:37.9291914+05:30","level":"INFO","msg":"sender: started","stream_id":"awzesqoh"}
+{"time":"2026-03-07T19:13:14.3757003+05:30","level":"INFO","msg":"stream: closing","id":"awzesqoh"}
+{"time":"2026-03-07T19:13:15.6383197+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-07T19:13:16.1452654+05:30","level":"INFO","msg":"handler: closed","stream_id":"awzesqoh"}
+{"time":"2026-03-07T19:13:16.1457723+05:30","level":"INFO","msg":"sender: closed","stream_id":"awzesqoh"}
+{"time":"2026-03-07T19:13:16.1457723+05:30","level":"INFO","msg":"stream: closed","id":"awzesqoh"}

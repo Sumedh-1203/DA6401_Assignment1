@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "C:\Users\DELL\Sumedh\Academics\DA6401\Ass1\da6401_assignment_1\src\train.py", line 133, in <module>
+    main()
+  File "C:\Users\DELL\Sumedh\Academics\DA6401\Ass1\da6401_assignment_1\src\train.py", line 91, in main
+    "f1_score": f1,
+                ^^
+UnboundLocalError: cannot access local variable 'f1' where it is not associated with a value

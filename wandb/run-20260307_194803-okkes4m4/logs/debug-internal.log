@@ -1,0 +1,11 @@
+{"time":"2026-03-07T19:48:06.2621052+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-07T19:48:06.7052745+05:30","level":"INFO","msg":"stream: created new stream","id":"okkes4m4"}
+{"time":"2026-03-07T19:48:06.7052745+05:30","level":"INFO","msg":"handler: started","stream_id":"okkes4m4"}
+{"time":"2026-03-07T19:48:06.7058082+05:30","level":"INFO","msg":"stream: started","id":"okkes4m4"}
+{"time":"2026-03-07T19:48:06.7058082+05:30","level":"INFO","msg":"writer: started","stream_id":"okkes4m4"}
+{"time":"2026-03-07T19:48:06.7058082+05:30","level":"INFO","msg":"sender: started","stream_id":"okkes4m4"}
+{"time":"2026-03-07T19:54:47.2288872+05:30","level":"INFO","msg":"stream: closing","id":"okkes4m4"}
+{"time":"2026-03-07T19:54:48.1390149+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-07T19:54:48.4773846+05:30","level":"INFO","msg":"handler: closed","stream_id":"okkes4m4"}
+{"time":"2026-03-07T19:54:48.4786519+05:30","level":"INFO","msg":"sender: closed","stream_id":"okkes4m4"}
+{"time":"2026-03-07T19:54:48.4786519+05:30","level":"INFO","msg":"stream: closed","id":"okkes4m4"}

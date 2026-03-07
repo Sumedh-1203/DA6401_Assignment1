@@ -1,0 +1,1503 @@
+2026-03-07 18:13:35 ERROR Traceback (most recent call last):
+  File "C:\Users\DELL\miniconda3\envs\DA6401\Lib\site-packages\wandb\apis\normalize.py", line 28, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\miniconda3\envs\DA6401\Lib\site-packages\wandb\sdk\internal\internal_api.py", line 1162, in sweep
+    raise ValueError(f"Sweep {entity}/{project}/{sweep} not found")
+ValueError: Sweep Sumedh-Kulkarni/da6401_test/bomx5zol not found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\miniconda3\envs\DA6401\Lib\site-packages\wandb\cli\cli.py", line 149, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\miniconda3\envs\DA6401\Lib\site-packages\wandb\cli\cli.py", line 1765, in agent
+    wandb_agent.agent(
+  File "C:\Users\DELL\miniconda3\envs\DA6401\Lib\site-packages\wandb\wandb_agent.py", line 669, in agent
+    return run_agent(
+           ^^^^^^^^^^
+  File "C:\Users\DELL\miniconda3\envs\DA6401\Lib\site-packages\wandb\wandb_agent.py", line 622, in run_agent
+    agent.run()
+  File "C:\Users\DELL\miniconda3\envs\DA6401\Lib\site-packages\wandb\wandb_agent.py", line 277, in run
+    sweep_obj = self._api.sweep(self._sweep_id, "{}")
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\miniconda3\envs\DA6401\Lib\site-packages\wandb\apis\internal.py", line 125, in sweep
+    return self.api.sweep(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\miniconda3\envs\DA6401\Lib\site-packages\wandb\apis\normalize.py", line 82, in wrapper
+    raise CommError(message, err).with_traceback(sys.exc_info()[2])
+  File "C:\Users\DELL\miniconda3\envs\DA6401\Lib\site-packages\wandb\apis\normalize.py", line 28, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\miniconda3\envs\DA6401\Lib\site-packages\wandb\sdk\internal\internal_api.py", line 1162, in sweep
+    raise ValueError(f"Sweep {entity}/{project}/{sweep} not found")
+wandb.errors.errors.CommError: Sweep Sumedh-Kulkarni/da6401_test/bomx5zol not found
+Traceback (most recent call last):
+  File "C:\Users\DELL\miniconda3\envs\DA6401\Lib\site-packages\wandb\apis\normalize.py", line 28, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\miniconda3\envs\DA6401\Lib\site-packages\wandb\sdk\internal\internal_api.py", line 1162, in sweep
+    raise ValueError(f"Sweep {entity}/{project}/{sweep} not found")
+ValueError: Sweep Sumedh-Kulkarni/da6401_test/bomx5zol not found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\miniconda3\envs\DA6401\Lib\site-packages\wandb\cli\cli.py", line 149, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\miniconda3\envs\DA6401\Lib\site-packages\wandb\cli\cli.py", line 1765, in agent
+    wandb_agent.agent(
+  File "C:\Users\DELL\miniconda3\envs\DA6401\Lib\site-packages\wandb\wandb_agent.py", line 669, in agent
+    return run_agent(
+           ^^^^^^^^^^
+  File "C:\Users\DELL\miniconda3\envs\DA6401\Lib\site-packages\wandb\wandb_agent.py", line 622, in run_agent
+    agent.run()
+  File "C:\Users\DELL\miniconda3\envs\DA6401\Lib\site-packages\wandb\wandb_agent.py", line 277, in run
+    sweep_obj = self._api.sweep(self._sweep_id, "{}")
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\miniconda3\envs\DA6401\Lib\site-packages\wandb\apis\internal.py", line 125, in sweep
+    return self.api.sweep(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\miniconda3\envs\DA6401\Lib\site-packages\wandb\apis\normalize.py", line 82, in wrapper
+    raise CommError(message, err).with_traceback(sys.exc_info()[2])
+  File "C:\Users\DELL\miniconda3\envs\DA6401\Lib\site-packages\wandb\apis\normalize.py", line 28, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\miniconda3\envs\DA6401\Lib\site-packages\wandb\sdk\internal\internal_api.py", line 1162, in sweep
+    raise ValueError(f"Sweep {entity}/{project}/{sweep} not found")
+wandb.errors.errors.CommError: Sweep Sumedh-Kulkarni/da6401_test/bomx5zol not found
+2026-03-07 18:15:26 ERROR Traceback (most recent call last):
+  File "C:\Users\DELL\miniconda3\envs\DA6401\Lib\site-packages\wandb\apis\normalize.py", line 28, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\miniconda3\envs\DA6401\Lib\site-packages\wandb\sdk\internal\internal_api.py", line 1162, in sweep
+    raise ValueError(f"Sweep {entity}/{project}/{sweep} not found")
+ValueError: Sweep sumedh2-1203/da6401_test/bomx5zol not found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\miniconda3\envs\DA6401\Lib\site-packages\wandb\cli\cli.py", line 149, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\miniconda3\envs\DA6401\Lib\site-packages\wandb\cli\cli.py", line 1765, in agent
+    wandb_agent.agent(
+  File "C:\Users\DELL\miniconda3\envs\DA6401\Lib\site-packages\wandb\wandb_agent.py", line 669, in agent
+    return run_agent(
+           ^^^^^^^^^^
+  File "C:\Users\DELL\miniconda3\envs\DA6401\Lib\site-packages\wandb\wandb_agent.py", line 622, in run_agent
+    agent.run()
+  File "C:\Users\DELL\miniconda3\envs\DA6401\Lib\site-packages\wandb\wandb_agent.py", line 277, in run
+    sweep_obj = self._api.sweep(self._sweep_id, "{}")
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\miniconda3\envs\DA6401\Lib\site-packages\wandb\apis\internal.py", line 125, in sweep
+    return self.api.sweep(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\miniconda3\envs\DA6401\Lib\site-packages\wandb\apis\normalize.py", line 82, in wrapper
+    raise CommError(message, err).with_traceback(sys.exc_info()[2])
+  File "C:\Users\DELL\miniconda3\envs\DA6401\Lib\site-packages\wandb\apis\normalize.py", line 28, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\miniconda3\envs\DA6401\Lib\site-packages\wandb\sdk\internal\internal_api.py", line 1162, in sweep
+    raise ValueError(f"Sweep {entity}/{project}/{sweep} not found")
+wandb.errors.errors.CommError: Sweep sumedh2-1203/da6401_test/bomx5zol not found
+Traceback (most recent call last):
+  File "C:\Users\DELL\miniconda3\envs\DA6401\Lib\site-packages\wandb\apis\normalize.py", line 28, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\miniconda3\envs\DA6401\Lib\site-packages\wandb\sdk\internal\internal_api.py", line 1162, in sweep
+    raise ValueError(f"Sweep {entity}/{project}/{sweep} not found")
+ValueError: Sweep sumedh2-1203/da6401_test/bomx5zol not found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\miniconda3\envs\DA6401\Lib\site-packages\wandb\cli\cli.py", line 149, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\miniconda3\envs\DA6401\Lib\site-packages\wandb\cli\cli.py", line 1765, in agent
+    wandb_agent.agent(
+  File "C:\Users\DELL\miniconda3\envs\DA6401\Lib\site-packages\wandb\wandb_agent.py", line 669, in agent
+    return run_agent(
+           ^^^^^^^^^^
+  File "C:\Users\DELL\miniconda3\envs\DA6401\Lib\site-packages\wandb\wandb_agent.py", line 622, in run_agent
+    agent.run()
+  File "C:\Users\DELL\miniconda3\envs\DA6401\Lib\site-packages\wandb\wandb_agent.py", line 277, in run
+    sweep_obj = self._api.sweep(self._sweep_id, "{}")
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\miniconda3\envs\DA6401\Lib\site-packages\wandb\apis\internal.py", line 125, in sweep
+    return self.api.sweep(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\miniconda3\envs\DA6401\Lib\site-packages\wandb\apis\normalize.py", line 82, in wrapper
+    raise CommError(message, err).with_traceback(sys.exc_info()[2])
+  File "C:\Users\DELL\miniconda3\envs\DA6401\Lib\site-packages\wandb\apis\normalize.py", line 28, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\miniconda3\envs\DA6401\Lib\site-packages\wandb\sdk\internal\internal_api.py", line 1162, in sweep
+    raise ValueError(f"Sweep {entity}/{project}/{sweep} not found")
+wandb.errors.errors.CommError: Sweep sumedh2-1203/da6401_test/bomx5zol not found
+2026-03-07 18:16:00 INFO Running runs: []
+2026-03-07 18:16:01 INFO Agent received command: run
+2026-03-07 18:16:01 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 32
+	dataset: mnist
+	epochs: 10
+	hidden_size: [32, 32, 32, 32, 32]
+	learning_rate: 0.001
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: momentum
+	wandb_project: da6401_test
+	weight_decay: 0
+	weight_init: xavier
+2026-03-07 18:16:01 INFO About to run command: python src/train.py --activation=tanh --batch_size=32 --dataset=mnist --epochs=10 "--hidden_size=[32, 32, 32, 32, 32]" --learning_rate=0.001 --loss=cross_entropy --num_layers=3 --optimizer=momentum --wandb_project=da6401_test --weight_decay=0 --weight_init=xavier
+2026-03-07 18:16:06 INFO Running runs: ['ts1zae52']
+2026-03-07 18:16:06 INFO Cleaning up finished run: ts1zae52
+2026-03-07 18:16:06 INFO Agent received command: run
+2026-03-07 18:16:06 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 64
+	dataset: mnist
+	epochs: 10
+	hidden_size: [128, 128, 128, 128, 128]
+	learning_rate: 0.0001
+	loss: cross_entropy
+	num_layers: 4
+	optimizer: sgd
+	wandb_project: da6401_test
+	weight_decay: 0.5
+	weight_init: xavier
+2026-03-07 18:16:06 INFO About to run command: python src/train.py --activation=relu --batch_size=64 --dataset=mnist --epochs=10 "--hidden_size=[128, 128, 128, 128, 128]" --learning_rate=0.0001 --loss=cross_entropy --num_layers=4 --optimizer=sgd --wandb_project=da6401_test --weight_decay=0.5 --weight_init=xavier
+2026-03-07 18:16:11 INFO Running runs: ['ejmjprnf']
+2026-03-07 18:16:11 INFO Cleaning up finished run: ejmjprnf
+2026-03-07 18:16:12 INFO Agent received command: run
+2026-03-07 18:16:12 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 32
+	dataset: mnist
+	epochs: 10
+	hidden_size: [128, 128, 128]
+	learning_rate: 0.001
+	loss: cross_entropy
+	num_layers: 5
+	optimizer: momentum
+	wandb_project: da6401_test
+	weight_decay: 0.5
+	weight_init: xavier
+2026-03-07 18:16:12 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=32 --dataset=mnist --epochs=10 "--hidden_size=[128, 128, 128]" --learning_rate=0.001 --loss=cross_entropy --num_layers=5 --optimizer=momentum --wandb_project=da6401_test --weight_decay=0.5 --weight_init=xavier
+2026-03-07 18:16:17 INFO Running runs: ['omkly87k']
+2026-03-07 18:16:17 ERROR Detected 3 failed runs in the first 60 seconds, shutting down.
+2026-03-07 18:16:17 INFO To disable this check set WANDB_AGENT_DISABLE_FLAPPING=true
+2026-03-07 18:18:55 INFO Running runs: []
+2026-03-07 18:18:55 INFO Agent received command: run
+2026-03-07 18:18:55 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 16
+	dataset: mnist
+	epochs: 10
+	hidden_size: 32 32 32 32 32
+	learning_rate: 0.001
+	loss: cross_entropy
+	num_layers: 4
+	optimizer: nadam
+	wandb_project: da6401_test
+	weight_decay: 0.5
+	weight_init: xavier
+2026-03-07 18:18:55 INFO About to run command: python src/train.py --activation=relu --batch_size=16 --dataset=mnist --epochs=10 "--hidden_size=32 32 32 32 32" --learning_rate=0.001 --loss=cross_entropy --num_layers=4 --optimizer=nadam --wandb_project=da6401_test --weight_decay=0.5 --weight_init=xavier
+2026-03-07 18:19:00 INFO Running runs: ['lf9hq612']
+2026-03-07 18:19:00 INFO Cleaning up finished run: lf9hq612
+2026-03-07 18:19:01 INFO Agent received command: run
+2026-03-07 18:19:01 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 64
+	dataset: mnist
+	epochs: 5
+	hidden_size: 64 64 64 64 64
+	learning_rate: 0.0001
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: nag
+	wandb_project: da6401_test
+	weight_decay: 0
+	weight_init: xavier
+2026-03-07 18:19:01 INFO About to run command: python src/train.py --activation=tanh --batch_size=64 --dataset=mnist --epochs=5 "--hidden_size=64 64 64 64 64" --learning_rate=0.0001 --loss=cross_entropy --num_layers=3 --optimizer=nag --wandb_project=da6401_test --weight_decay=0 --weight_init=xavier
+2026-03-07 18:19:06 INFO Running runs: ['sdykmohv']
+2026-03-07 18:19:06 INFO Cleaning up finished run: sdykmohv
+2026-03-07 18:19:07 INFO Agent received command: run
+2026-03-07 18:19:07 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 64
+	dataset: mnist
+	epochs: 5
+	hidden_size: 64 64 64 64
+	learning_rate: 0.0001
+	loss: cross_entropy
+	num_layers: 5
+	optimizer: nadam
+	wandb_project: da6401_test
+	weight_decay: 0
+	weight_init: xavier
+2026-03-07 18:19:07 INFO About to run command: python src/train.py --activation=relu --batch_size=64 --dataset=mnist --epochs=5 "--hidden_size=64 64 64 64" --learning_rate=0.0001 --loss=cross_entropy --num_layers=5 --optimizer=nadam --wandb_project=da6401_test --weight_decay=0 --weight_init=xavier
+2026-03-07 18:19:12 INFO Running runs: ['dadmhu9j']
+2026-03-07 18:23:05 ERROR Traceback (most recent call last):
+  File "C:\Users\DELL\miniconda3\envs\DA6401\Lib\site-packages\wandb\apis\normalize.py", line 28, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\miniconda3\envs\DA6401\Lib\site-packages\wandb\sdk\internal\internal_api.py", line 3354, in upsert_sweep
+    config = self._validate_config_and_fill_distribution(config)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\miniconda3\envs\DA6401\Lib\site-packages\wandb\sdk\internal\internal_api.py", line 3218, in _validate_config_and_fill_distribution
+    "min" in parameter
+TypeError: argument of type 'NoneType' is not iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\miniconda3\envs\DA6401\Lib\site-packages\wandb\cli\cli.py", line 149, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\miniconda3\envs\DA6401\Lib\site-packages\wandb\cli\cli.py", line 967, in sweep
+    sweep_id, warnings = api.upsert_sweep(
+                         ^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\miniconda3\envs\DA6401\Lib\site-packages\wandb\apis\internal.py", line 128, in upsert_sweep
+    return self.api.upsert_sweep(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\miniconda3\envs\DA6401\Lib\site-packages\wandb\apis\normalize.py", line 82, in wrapper
+    raise CommError(message, err).with_traceback(sys.exc_info()[2])
+  File "C:\Users\DELL\miniconda3\envs\DA6401\Lib\site-packages\wandb\apis\normalize.py", line 28, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\miniconda3\envs\DA6401\Lib\site-packages\wandb\sdk\internal\internal_api.py", line 3354, in upsert_sweep
+    config = self._validate_config_and_fill_distribution(config)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\miniconda3\envs\DA6401\Lib\site-packages\wandb\sdk\internal\internal_api.py", line 3218, in _validate_config_and_fill_distribution
+    "min" in parameter
+wandb.errors.errors.CommError: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\DELL\miniconda3\envs\DA6401\Lib\site-packages\wandb\apis\normalize.py", line 28, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\miniconda3\envs\DA6401\Lib\site-packages\wandb\sdk\internal\internal_api.py", line 3354, in upsert_sweep
+    config = self._validate_config_and_fill_distribution(config)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\miniconda3\envs\DA6401\Lib\site-packages\wandb\sdk\internal\internal_api.py", line 3218, in _validate_config_and_fill_distribution
+    "min" in parameter
+TypeError: argument of type 'NoneType' is not iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\miniconda3\envs\DA6401\Lib\site-packages\wandb\cli\cli.py", line 149, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\miniconda3\envs\DA6401\Lib\site-packages\wandb\cli\cli.py", line 967, in sweep
+    sweep_id, warnings = api.upsert_sweep(
+                         ^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\miniconda3\envs\DA6401\Lib\site-packages\wandb\apis\internal.py", line 128, in upsert_sweep
+    return self.api.upsert_sweep(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\miniconda3\envs\DA6401\Lib\site-packages\wandb\apis\normalize.py", line 82, in wrapper
+    raise CommError(message, err).with_traceback(sys.exc_info()[2])
+  File "C:\Users\DELL\miniconda3\envs\DA6401\Lib\site-packages\wandb\apis\normalize.py", line 28, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\miniconda3\envs\DA6401\Lib\site-packages\wandb\sdk\internal\internal_api.py", line 3354, in upsert_sweep
+    config = self._validate_config_and_fill_distribution(config)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\miniconda3\envs\DA6401\Lib\site-packages\wandb\sdk\internal\internal_api.py", line 3218, in _validate_config_and_fill_distribution
+    "min" in parameter
+wandb.errors.errors.CommError: argument of type 'NoneType' is not iterable
+2026-03-07 18:23:59 INFO Running runs: []
+2026-03-07 18:24:00 INFO Agent received command: run
+2026-03-07 18:24:00 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 64
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128 128 128
+	learning_rate: 0.0001
+	loss: cross_entropy
+	num_layers: 5
+	optimizer: sgd
+	wandb_project: da6401_test
+	weight_decay: 0.0005
+	weight_init: xavier
+2026-03-07 18:24:00 INFO About to run command: python src/train.py -d -e -b -lr -o -nhl -sz -a -l -w_i -w_p -wd
+2026-03-07 18:24:05 INFO Running runs: ['eamxom44']
+2026-03-07 18:24:05 INFO Cleaning up finished run: eamxom44
+2026-03-07 18:24:06 INFO Agent received command: run
+2026-03-07 18:24:06 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 32
+	dataset: mnist
+	epochs: 10
+	hidden_size: 32 32 32 32 32
+	learning_rate: 0.001
+	loss: cross_entropy
+	num_layers: 5
+	optimizer: rmsprop
+	wandb_project: da6401_test
+	weight_decay: 0.5
+	weight_init: xavier
+2026-03-07 18:24:06 INFO About to run command: python src/train.py -d -e -b -lr -o -nhl -sz -a -l -w_i -w_p -wd
+2026-03-07 18:24:11 INFO Running runs: ['odaemllx']
+2026-03-07 18:25:04 INFO Running runs: []
+2026-03-07 18:25:05 INFO Agent received command: run
+2026-03-07 18:25:05 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 64
+	dataset: mnist
+	epochs: 5
+	hidden_size: 64 64 64 64
+	learning_rate: 0.0001
+	loss: cross_entropy
+	num_layers: 5
+	optimizer: rmsprop
+	wandb_project: da6401_test
+	weight_decay: 0
+	weight_init: random
+2026-03-07 18:25:05 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=64 --dataset=mnist --epochs=5 "--hidden_size=64 64 64 64" --learning_rate=0.0001 --loss=cross_entropy --num_layers=5 --optimizer=rmsprop --wandb_project=da6401_test --weight_decay=0 --weight_init=random
+2026-03-07 18:25:10 INFO Running runs: ['qop2q1tw']
+2026-03-07 18:25:10 INFO Cleaning up finished run: qop2q1tw
+2026-03-07 18:25:11 INFO Agent received command: run
+2026-03-07 18:25:11 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 16
+	dataset: mnist
+	epochs: 5
+	hidden_size: 128 128 128 128
+	learning_rate: 0.0001
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: rmsprop
+	wandb_project: da6401_test
+	weight_decay: 0.0005
+	weight_init: xavier
+2026-03-07 18:25:11 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=16 --dataset=mnist --epochs=5 "--hidden_size=128 128 128 128" --learning_rate=0.0001 --loss=cross_entropy --num_layers=3 --optimizer=rmsprop --wandb_project=da6401_test --weight_decay=0.0005 --weight_init=xavier
+2026-03-07 18:25:16 INFO Running runs: ['u0tbofm4']
+2026-03-07 18:25:16 INFO Cleaning up finished run: u0tbofm4
+2026-03-07 18:25:16 INFO Agent received command: run
+2026-03-07 18:25:16 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 64
+	dataset: mnist
+	epochs: 10
+	hidden_size: 32 32 32 32
+	learning_rate: 0.001
+	loss: cross_entropy
+	num_layers: 5
+	optimizer: nag
+	wandb_project: da6401_test
+	weight_decay: 0
+	weight_init: xavier
+2026-03-07 18:25:16 INFO About to run command: python src/train.py --activation=relu --batch_size=64 --dataset=mnist --epochs=10 "--hidden_size=32 32 32 32" --learning_rate=0.001 --loss=cross_entropy --num_layers=5 --optimizer=nag --wandb_project=da6401_test --weight_decay=0 --weight_init=xavier
+2026-03-07 18:25:21 INFO Running runs: ['fzobghh8']
+2026-03-07 18:25:27 ERROR Detected 3 failed runs in the first 60 seconds, shutting down.
+2026-03-07 18:25:27 INFO To disable this check set WANDB_AGENT_DISABLE_FLAPPING=true
+2026-03-07 18:27:35 INFO Running runs: []
+2026-03-07 18:27:35 INFO Agent received command: run
+2026-03-07 18:27:35 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 16
+	dataset: mnist
+	epochs: 10
+	learning_rate: 0.001
+	loss: cross_entropy
+	num_layers: 5
+	optimizer: adam
+	wandb_project: da6401_test
+	weight_decay: 0.5
+	weight_init: random
+2026-03-07 18:27:35 INFO About to run command: python src/train.py --activation=tanh --batch_size=16 --dataset=mnist --epochs=10 --learning_rate=0.001 --loss=cross_entropy --num_layers=5 --optimizer=adam --wandb_project=da6401_test --weight_decay=0.5 --weight_init=random
+2026-03-07 18:27:40 INFO Running runs: ['oaquol1d']
+2026-03-07 18:27:51 INFO Cleaning up finished run: oaquol1d
+2026-03-07 18:27:52 INFO Agent received command: run
+2026-03-07 18:27:52 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 64
+	dataset: mnist
+	epochs: 5
+	learning_rate: 0.0001
+	loss: cross_entropy
+	num_layers: 4
+	optimizer: sgd
+	wandb_project: da6401_test
+	weight_decay: 0.0005
+	weight_init: random
+2026-03-07 18:27:52 INFO About to run command: python src/train.py --activation=relu --batch_size=64 --dataset=mnist --epochs=5 --learning_rate=0.0001 --loss=cross_entropy --num_layers=4 --optimizer=sgd --wandb_project=da6401_test --weight_decay=0.0005 --weight_init=random
+2026-03-07 18:28:32 INFO Running runs: []
+2026-03-07 18:28:33 INFO Agent received command: run
+2026-03-07 18:28:33 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 16
+	dataset: mnist
+	epochs: 10
+	learning_rate: 0.0001
+	loss: cross_entropy
+	num_layers: 4
+	optimizer: adam
+	wandb_project: da6401_test
+	weight_decay: 0
+	weight_init: random
+2026-03-07 18:28:33 INFO About to run command: python src/train.py --activation=relu --batch_size=16 --dataset=mnist --epochs=10 --learning_rate=0.0001 --loss=cross_entropy --num_layers=4 --optimizer=adam --wandb_project=da6401_test --weight_decay=0 --weight_init=random
+2026-03-07 18:28:38 INFO Running runs: ['gjiv2w02']
+2026-03-07 18:30:10 INFO Running runs: []
+2026-03-07 18:30:11 INFO Agent received command: run
+2026-03-07 18:30:11 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 64
+	dataset: mnist
+	epochs: 5
+	hidden_size: [128, 128, 128]
+	learning_rate: 0.0001
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: sgd
+	wandb_project: da6401_test
+	weight_decay: 0.0005
+	weight_init: xavier
+2026-03-07 18:30:11 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=64 --dataset=mnist --epochs=5 "--hidden_size=[128, 128, 128]" --learning_rate=0.0001 --loss=cross_entropy --num_layers=3 --optimizer=sgd --wandb_project=da6401_test --weight_decay=0.0005 --weight_init=xavier
+2026-03-07 18:30:16 INFO Running runs: ['dt6laber']
+2026-03-07 18:30:16 INFO Cleaning up finished run: dt6laber
+2026-03-07 18:30:16 INFO Agent received command: run
+2026-03-07 18:30:16 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 32
+	dataset: mnist
+	epochs: 10
+	hidden_size: [128, 128, 128]
+	learning_rate: 0.001
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: momentum
+	wandb_project: da6401_test
+	weight_decay: 0.0005
+	weight_init: xavier
+2026-03-07 18:30:16 INFO About to run command: python src/train.py --activation=relu --batch_size=32 --dataset=mnist --epochs=10 "--hidden_size=[128, 128, 128]" --learning_rate=0.001 --loss=cross_entropy --num_layers=3 --optimizer=momentum --wandb_project=da6401_test --weight_decay=0.0005 --weight_init=xavier
+2026-03-07 18:32:39 INFO Running runs: []
+2026-03-07 18:32:40 INFO Agent received command: run
+2026-03-07 18:32:40 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 64
+	dataset: mnist
+	epochs: 5
+	learning_rate: 0.001
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: momentum
+	wandb_project: da6401_test
+	weight_decay: 0.0005
+	weight_init: xavier
+2026-03-07 18:32:40 INFO About to run command: python src/train.py --activation=relu --batch_size=64 --dataset=mnist --epochs=5 --learning_rate=0.001 --loss=cross_entropy --num_layers=3 --optimizer=momentum --wandb_project=da6401_test --weight_decay=0.0005 --weight_init=xavier
+2026-03-07 18:32:45 INFO Running runs: ['cx8vp8nn']
+2026-03-07 18:33:01 INFO Cleaning up finished run: cx8vp8nn
+2026-03-07 18:33:02 INFO Agent received command: run
+2026-03-07 18:33:02 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 16
+	dataset: mnist
+	epochs: 10
+	learning_rate: 0.001
+	loss: cross_entropy
+	num_layers: 4
+	optimizer: rmsprop
+	wandb_project: da6401_test
+	weight_decay: 0.0005
+	weight_init: xavier
+2026-03-07 18:33:02 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=16 --dataset=mnist --epochs=10 --learning_rate=0.001 --loss=cross_entropy --num_layers=4 --optimizer=rmsprop --wandb_project=da6401_test --weight_decay=0.0005 --weight_init=xavier
+2026-03-07 18:33:07 INFO Running runs: ['wfd4zbmf']
+2026-03-07 18:34:38 INFO Cleaning up finished run: wfd4zbmf
+2026-03-07 18:34:38 INFO Agent received command: run
+2026-03-07 18:34:38 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 32
+	dataset: mnist
+	epochs: 5
+	learning_rate: 0.0001
+	loss: cross_entropy
+	num_layers: 4
+	optimizer: nag
+	wandb_project: da6401_test
+	weight_decay: 0
+	weight_init: random
+2026-03-07 18:34:38 INFO About to run command: python src/train.py --activation=tanh --batch_size=32 --dataset=mnist --epochs=5 --learning_rate=0.0001 --loss=cross_entropy --num_layers=4 --optimizer=nag --wandb_project=da6401_test --weight_decay=0 --weight_init=random
+2026-03-07 18:34:43 INFO Running runs: ['d985l5ni']
+2026-03-07 18:35:21 INFO Cleaning up finished run: d985l5ni
+2026-03-07 18:35:21 INFO Agent received command: run
+2026-03-07 18:35:21 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 32
+	dataset: mnist
+	epochs: 10
+	learning_rate: 0.001
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: nag
+	wandb_project: da6401_test
+	weight_decay: 0.5
+	weight_init: xavier
+2026-03-07 18:35:21 INFO About to run command: python src/train.py --activation=relu --batch_size=32 --dataset=mnist --epochs=10 --learning_rate=0.001 --loss=cross_entropy --num_layers=3 --optimizer=nag --wandb_project=da6401_test --weight_decay=0.5 --weight_init=xavier
+2026-03-07 18:35:26 INFO Running runs: ['e6s0ydrx']
+2026-03-07 18:36:15 INFO Cleaning up finished run: e6s0ydrx
+2026-03-07 18:36:16 INFO Agent received command: run
+2026-03-07 18:36:16 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 64
+	dataset: mnist
+	epochs: 5
+	learning_rate: 0.001
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: rmsprop
+	wandb_project: da6401_test
+	weight_decay: 0.5
+	weight_init: random
+2026-03-07 18:36:16 INFO About to run command: python src/train.py --activation=relu --batch_size=64 --dataset=mnist --epochs=5 --learning_rate=0.001 --loss=cross_entropy --num_layers=3 --optimizer=rmsprop --wandb_project=da6401_test --weight_decay=0.5 --weight_init=random
+2026-03-07 18:36:21 INFO Running runs: ['jdq8dvac']
+2026-03-07 18:36:42 INFO Cleaning up finished run: jdq8dvac
+2026-03-07 18:36:43 INFO Agent received command: run
+2026-03-07 18:36:43 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 32
+	dataset: mnist
+	epochs: 5
+	learning_rate: 0.001
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: rmsprop
+	wandb_project: da6401_test
+	weight_decay: 0.5
+	weight_init: xavier
+2026-03-07 18:36:43 INFO About to run command: python src/train.py --activation=relu --batch_size=32 --dataset=mnist --epochs=5 --learning_rate=0.001 --loss=cross_entropy --num_layers=3 --optimizer=rmsprop --wandb_project=da6401_test --weight_decay=0.5 --weight_init=xavier
+2026-03-07 18:36:48 INFO Running runs: ['73fvxzpo']
+2026-03-07 18:37:15 INFO Cleaning up finished run: 73fvxzpo
+2026-03-07 18:37:16 INFO Agent received command: run
+2026-03-07 18:37:16 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 32
+	dataset: mnist
+	epochs: 5
+	learning_rate: 0.001
+	loss: cross_entropy
+	num_layers: 4
+	optimizer: adam
+	wandb_project: da6401_test
+	weight_decay: 0.0005
+	weight_init: random
+2026-03-07 18:37:16 INFO About to run command: python src/train.py --activation=relu --batch_size=32 --dataset=mnist --epochs=5 --learning_rate=0.001 --loss=cross_entropy --num_layers=4 --optimizer=adam --wandb_project=da6401_test --weight_decay=0.0005 --weight_init=random
+2026-03-07 18:37:21 INFO Running runs: ['mq6mwfpa']
+2026-03-07 18:37:59 INFO Cleaning up finished run: mq6mwfpa
+2026-03-07 18:38:00 INFO Agent received command: run
+2026-03-07 18:38:00 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 16
+	dataset: mnist
+	epochs: 5
+	learning_rate: 0.0001
+	loss: cross_entropy
+	num_layers: 5
+	optimizer: rmsprop
+	wandb_project: da6401_test
+	weight_decay: 0
+	weight_init: xavier
+2026-03-07 18:38:00 INFO About to run command: python src/train.py --activation=tanh --batch_size=16 --dataset=mnist --epochs=5 --learning_rate=0.0001 --loss=cross_entropy --num_layers=5 --optimizer=rmsprop --wandb_project=da6401_test --weight_decay=0 --weight_init=xavier
+2026-03-07 18:38:05 INFO Running runs: ['6yr1nml5']
+2026-03-07 18:39:05 INFO Cleaning up finished run: 6yr1nml5
+2026-03-07 18:39:06 INFO Agent received command: run
+2026-03-07 18:39:06 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 64
+	dataset: mnist
+	epochs: 5
+	learning_rate: 0.0001
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: sgd
+	wandb_project: da6401_test
+	weight_decay: 0
+	weight_init: random
+2026-03-07 18:39:06 INFO About to run command: python src/train.py --activation=tanh --batch_size=64 --dataset=mnist --epochs=5 --learning_rate=0.0001 --loss=cross_entropy --num_layers=3 --optimizer=sgd --wandb_project=da6401_test --weight_decay=0 --weight_init=random
+2026-03-07 18:39:11 INFO Running runs: ['u7jne0wj']
+2026-03-07 18:39:32 INFO Cleaning up finished run: u7jne0wj
+2026-03-07 18:39:33 INFO Agent received command: run
+2026-03-07 18:39:33 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 64
+	dataset: mnist
+	epochs: 5
+	learning_rate: 0.001
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: momentum
+	wandb_project: da6401_test
+	weight_decay: 0.0005
+	weight_init: xavier
+2026-03-07 18:39:33 INFO About to run command: python src/train.py --activation=relu --batch_size=64 --dataset=mnist --epochs=5 --learning_rate=0.001 --loss=cross_entropy --num_layers=3 --optimizer=momentum --wandb_project=da6401_test --weight_decay=0.0005 --weight_init=xavier
+2026-03-07 18:39:38 INFO Running runs: ['7yr4i5yt']
+2026-03-07 18:39:54 INFO Cleaning up finished run: 7yr4i5yt
+2026-03-07 18:39:55 INFO Agent received command: run
+2026-03-07 18:39:55 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 16
+	dataset: mnist
+	epochs: 10
+	learning_rate: 0.0001
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: nag
+	wandb_project: da6401_test
+	weight_decay: 0.0005
+	weight_init: xavier
+2026-03-07 18:39:55 INFO About to run command: python src/train.py --activation=tanh --batch_size=16 --dataset=mnist --epochs=10 --learning_rate=0.0001 --loss=cross_entropy --num_layers=3 --optimizer=nag --wandb_project=da6401_test --weight_decay=0.0005 --weight_init=xavier
+2026-03-07 18:40:00 INFO Running runs: ['96n0fslu']
+2026-03-07 18:41:25 INFO Cleaning up finished run: 96n0fslu
+2026-03-07 18:41:26 INFO Agent received command: run
+2026-03-07 18:41:26 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 64
+	dataset: mnist
+	epochs: 5
+	learning_rate: 0.001
+	loss: cross_entropy
+	num_layers: 5
+	optimizer: momentum
+	wandb_project: da6401_test
+	weight_decay: 0.5
+	weight_init: xavier
+2026-03-07 18:41:26 INFO About to run command: python src/train.py --activation=relu --batch_size=64 --dataset=mnist --epochs=5 --learning_rate=0.001 --loss=cross_entropy --num_layers=5 --optimizer=momentum --wandb_project=da6401_test --weight_decay=0.5 --weight_init=xavier
+2026-03-07 18:41:31 INFO Running runs: ['3ds021wo']
+2026-03-07 18:41:52 INFO Cleaning up finished run: 3ds021wo
+2026-03-07 18:41:53 INFO Agent received command: run
+2026-03-07 18:41:53 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 64
+	dataset: mnist
+	epochs: 10
+	learning_rate: 0.001
+	loss: cross_entropy
+	num_layers: 4
+	optimizer: nag
+	wandb_project: da6401_test
+	weight_decay: 0.5
+	weight_init: xavier
+2026-03-07 18:41:53 INFO About to run command: python src/train.py --activation=tanh --batch_size=64 --dataset=mnist --epochs=10 --learning_rate=0.001 --loss=cross_entropy --num_layers=4 --optimizer=nag --wandb_project=da6401_test --weight_decay=0.5 --weight_init=xavier
+2026-03-07 18:41:58 INFO Running runs: ['olq9shmq']
+2026-03-07 18:42:51 INFO Cleaning up finished run: olq9shmq
+2026-03-07 18:42:51 INFO Agent received command: run
+2026-03-07 18:42:51 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 16
+	dataset: mnist
+	epochs: 10
+	learning_rate: 0.001
+	loss: cross_entropy
+	num_layers: 5
+	optimizer: adam
+	wandb_project: da6401_test
+	weight_decay: 0
+	weight_init: random
+2026-03-07 18:42:51 INFO About to run command: python src/train.py --activation=relu --batch_size=16 --dataset=mnist --epochs=10 --learning_rate=0.001 --loss=cross_entropy --num_layers=5 --optimizer=adam --wandb_project=da6401_test --weight_decay=0 --weight_init=random
+2026-03-07 18:42:56 INFO Running runs: ['ad112vdz']
+2026-03-07 18:46:36 INFO Cleaning up finished run: ad112vdz
+2026-03-07 18:46:37 INFO Agent received command: run
+2026-03-07 18:46:37 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 16
+	dataset: mnist
+	epochs: 10
+	learning_rate: 0.001
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: nag
+	wandb_project: da6401_test
+	weight_decay: 0
+	weight_init: xavier
+2026-03-07 18:46:37 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=16 --dataset=mnist --epochs=10 --learning_rate=0.001 --loss=cross_entropy --num_layers=3 --optimizer=nag --wandb_project=da6401_test --weight_decay=0 --weight_init=xavier
+2026-03-07 18:46:42 INFO Running runs: ['ldwlwes4']
+2026-03-07 18:47:51 INFO Cleaning up finished run: ldwlwes4
+2026-03-07 18:47:52 INFO Agent received command: run
+2026-03-07 18:47:52 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 64
+	dataset: mnist
+	epochs: 10
+	learning_rate: 0.001
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: nag
+	wandb_project: da6401_test
+	weight_decay: 0
+	weight_init: random
+2026-03-07 18:47:52 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=64 --dataset=mnist --epochs=10 --learning_rate=0.001 --loss=cross_entropy --num_layers=3 --optimizer=nag --wandb_project=da6401_test --weight_decay=0 --weight_init=random
+2026-03-07 18:47:57 INFO Running runs: ['56kifv2u']
+2026-03-07 18:48:34 INFO Cleaning up finished run: 56kifv2u
+2026-03-07 18:48:35 INFO Agent received command: run
+2026-03-07 18:48:35 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 16
+	dataset: mnist
+	epochs: 5
+	learning_rate: 0.0001
+	loss: cross_entropy
+	num_layers: 4
+	optimizer: momentum
+	wandb_project: da6401_test
+	weight_decay: 0.0005
+	weight_init: xavier
+2026-03-07 18:48:35 INFO About to run command: python src/train.py --activation=tanh --batch_size=16 --dataset=mnist --epochs=5 --learning_rate=0.0001 --loss=cross_entropy --num_layers=4 --optimizer=momentum --wandb_project=da6401_test --weight_decay=0.0005 --weight_init=xavier
+2026-03-07 18:48:40 INFO Running runs: ['ah8dlhde']
+2026-03-07 18:49:38 INFO Cleaning up finished run: ah8dlhde
+2026-03-07 18:49:39 INFO Agent received command: run
+2026-03-07 18:49:39 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 64
+	dataset: mnist
+	epochs: 5
+	learning_rate: 0.0001
+	loss: cross_entropy
+	num_layers: 4
+	optimizer: sgd
+	wandb_project: da6401_test
+	weight_decay: 0
+	weight_init: xavier
+2026-03-07 18:49:39 INFO About to run command: python src/train.py --activation=relu --batch_size=64 --dataset=mnist --epochs=5 --learning_rate=0.0001 --loss=cross_entropy --num_layers=4 --optimizer=sgd --wandb_project=da6401_test --weight_decay=0 --weight_init=xavier
+2026-03-07 18:49:44 INFO Running runs: ['bwr7pmfc']
+2026-03-07 18:50:00 INFO Cleaning up finished run: bwr7pmfc
+2026-03-07 18:50:00 INFO Agent received command: run
+2026-03-07 18:50:00 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 32
+	dataset: mnist
+	epochs: 5
+	learning_rate: 0.0001
+	loss: cross_entropy
+	num_layers: 5
+	optimizer: adam
+	wandb_project: da6401_test
+	weight_decay: 0.5
+	weight_init: xavier
+2026-03-07 18:50:00 INFO About to run command: python src/train.py --activation=relu --batch_size=32 --dataset=mnist --epochs=5 --learning_rate=0.0001 --loss=cross_entropy --num_layers=5 --optimizer=adam --wandb_project=da6401_test --weight_decay=0.5 --weight_init=xavier
+2026-03-07 18:50:05 INFO Running runs: ['cltfaj7g']
+2026-03-07 18:50:48 INFO Cleaning up finished run: cltfaj7g
+2026-03-07 18:50:49 INFO Agent received command: run
+2026-03-07 18:50:49 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 32
+	dataset: mnist
+	epochs: 10
+	learning_rate: 0.0001
+	loss: cross_entropy
+	num_layers: 5
+	optimizer: sgd
+	wandb_project: da6401_test
+	weight_decay: 0.5
+	weight_init: xavier
+2026-03-07 18:50:49 INFO About to run command: python src/train.py --activation=relu --batch_size=32 --dataset=mnist --epochs=10 --learning_rate=0.0001 --loss=cross_entropy --num_layers=5 --optimizer=sgd --wandb_project=da6401_test --weight_decay=0.5 --weight_init=xavier
+2026-03-07 18:50:54 INFO Running runs: ['s5wilpox']
+2026-03-07 18:51:31 INFO Cleaning up finished run: s5wilpox
+2026-03-07 18:51:32 INFO Agent received command: run
+2026-03-07 18:51:32 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 64
+	dataset: mnist
+	epochs: 5
+	learning_rate: 0.0001
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: nag
+	wandb_project: da6401_test
+	weight_decay: 0.5
+	weight_init: random
+2026-03-07 18:51:32 INFO About to run command: python src/train.py --activation=relu --batch_size=64 --dataset=mnist --epochs=5 --learning_rate=0.0001 --loss=cross_entropy --num_layers=3 --optimizer=nag --wandb_project=da6401_test --weight_decay=0.5 --weight_init=random
+2026-03-07 18:51:37 INFO Running runs: ['5o9ie45z']
+2026-03-07 18:51:58 INFO Cleaning up finished run: 5o9ie45z
+2026-03-07 18:51:59 INFO Agent received command: run
+2026-03-07 18:51:59 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 32
+	dataset: mnist
+	epochs: 5
+	learning_rate: 0.0001
+	loss: cross_entropy
+	num_layers: 5
+	optimizer: momentum
+	wandb_project: da6401_test
+	weight_decay: 0.5
+	weight_init: random
+2026-03-07 18:51:59 INFO About to run command: python src/train.py --activation=relu --batch_size=32 --dataset=mnist --epochs=5 --learning_rate=0.0001 --loss=cross_entropy --num_layers=5 --optimizer=momentum --wandb_project=da6401_test --weight_decay=0.5 --weight_init=random
+2026-03-07 18:52:04 INFO Running runs: ['uke1uuy6']
+2026-03-07 18:52:31 INFO Cleaning up finished run: uke1uuy6
+2026-03-07 18:52:32 INFO Agent received command: run
+2026-03-07 18:52:32 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 16
+	dataset: mnist
+	epochs: 5
+	learning_rate: 0.0001
+	loss: cross_entropy
+	num_layers: 5
+	optimizer: nadam
+	wandb_project: da6401_test
+	weight_decay: 0
+	weight_init: xavier
+2026-03-07 18:52:32 INFO About to run command: python src/train.py --activation=tanh --batch_size=16 --dataset=mnist --epochs=5 --learning_rate=0.0001 --loss=cross_entropy --num_layers=5 --optimizer=nadam --wandb_project=da6401_test --weight_decay=0 --weight_init=xavier
+2026-03-07 18:52:37 INFO Running runs: ['1gwz0jlg']
+2026-03-07 18:54:07 INFO Cleaning up finished run: 1gwz0jlg
+2026-03-07 18:54:08 INFO Agent received command: run
+2026-03-07 18:54:08 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 16
+	dataset: mnist
+	epochs: 10
+	learning_rate: 0.0001
+	loss: cross_entropy
+	num_layers: 5
+	optimizer: nag
+	wandb_project: da6401_test
+	weight_decay: 0.0005
+	weight_init: random
+2026-03-07 18:54:08 INFO About to run command: python src/train.py --activation=tanh --batch_size=16 --dataset=mnist --epochs=10 --learning_rate=0.0001 --loss=cross_entropy --num_layers=5 --optimizer=nag --wandb_project=da6401_test --weight_decay=0.0005 --weight_init=random
+2026-03-07 18:54:13 INFO Running runs: ['9pz1udc3']
+2026-03-07 18:56:26 INFO Cleaning up finished run: 9pz1udc3
+2026-03-07 18:56:27 INFO Agent received command: run
+2026-03-07 18:56:27 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 16
+	dataset: mnist
+	epochs: 10
+	learning_rate: 0.0001
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: nadam
+	wandb_project: da6401_test
+	weight_decay: 0.0005
+	weight_init: xavier
+2026-03-07 18:56:27 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=16 --dataset=mnist --epochs=10 --learning_rate=0.0001 --loss=cross_entropy --num_layers=3 --optimizer=nadam --wandb_project=da6401_test --weight_decay=0.0005 --weight_init=xavier
+2026-03-07 18:56:32 INFO Running runs: ['0j6naikd']
+2026-03-07 19:00:00 INFO Cleaning up finished run: 0j6naikd
+2026-03-07 19:00:01 INFO Agent received command: run
+2026-03-07 19:00:01 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 64
+	dataset: mnist
+	epochs: 5
+	learning_rate: 0.001
+	loss: cross_entropy
+	num_layers: 4
+	optimizer: rmsprop
+	wandb_project: da6401_test
+	weight_decay: 0
+	weight_init: xavier
+2026-03-07 19:00:01 INFO About to run command: python src/train.py --activation=tanh --batch_size=64 --dataset=mnist --epochs=5 --learning_rate=0.001 --loss=cross_entropy --num_layers=4 --optimizer=rmsprop --wandb_project=da6401_test --weight_decay=0 --weight_init=xavier
+2026-03-07 19:00:06 INFO Running runs: ['yozsecbu']
+2026-03-07 19:00:44 INFO Cleaning up finished run: yozsecbu
+2026-03-07 19:00:44 INFO Agent received command: run
+2026-03-07 19:00:44 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 64
+	dataset: mnist
+	epochs: 5
+	learning_rate: 0.0001
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: nag
+	wandb_project: da6401_test
+	weight_decay: 0
+	weight_init: random
+2026-03-07 19:00:44 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=64 --dataset=mnist --epochs=5 --learning_rate=0.0001 --loss=cross_entropy --num_layers=3 --optimizer=nag --wandb_project=da6401_test --weight_decay=0 --weight_init=random
+2026-03-07 19:00:50 INFO Running runs: ['qqyov043']
+2026-03-07 19:01:16 INFO Cleaning up finished run: qqyov043
+2026-03-07 19:01:17 INFO Agent received command: run
+2026-03-07 19:01:17 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 16
+	dataset: mnist
+	epochs: 5
+	learning_rate: 0.0001
+	loss: cross_entropy
+	num_layers: 4
+	optimizer: sgd
+	wandb_project: da6401_test
+	weight_decay: 0.5
+	weight_init: random
+2026-03-07 19:01:17 INFO About to run command: python src/train.py --activation=relu --batch_size=16 --dataset=mnist --epochs=5 --learning_rate=0.0001 --loss=cross_entropy --num_layers=4 --optimizer=sgd --wandb_project=da6401_test --weight_decay=0.5 --weight_init=random
+2026-03-07 19:01:22 INFO Running runs: ['dlye0sl7']
+2026-03-07 19:02:06 INFO Cleaning up finished run: dlye0sl7
+2026-03-07 19:02:06 INFO Agent received command: run
+2026-03-07 19:02:06 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 16
+	dataset: mnist
+	epochs: 5
+	learning_rate: 0.0001
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: rmsprop
+	wandb_project: da6401_test
+	weight_decay: 0.0005
+	weight_init: xavier
+2026-03-07 19:02:06 INFO About to run command: python src/train.py --activation=tanh --batch_size=16 --dataset=mnist --epochs=5 --learning_rate=0.0001 --loss=cross_entropy --num_layers=3 --optimizer=rmsprop --wandb_project=da6401_test --weight_decay=0.0005 --weight_init=xavier
+2026-03-07 19:02:11 INFO Running runs: ['35cexrv5']
+2026-03-07 19:03:49 INFO Cleaning up finished run: 35cexrv5
+2026-03-07 19:03:49 INFO Agent received command: run
+2026-03-07 19:03:49 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 32
+	dataset: mnist
+	epochs: 10
+	learning_rate: 0.0001
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: nadam
+	wandb_project: da6401_test
+	weight_decay: 0.5
+	weight_init: random
+2026-03-07 19:03:49 INFO About to run command: python src/train.py --activation=relu --batch_size=32 --dataset=mnist --epochs=10 --learning_rate=0.0001 --loss=cross_entropy --num_layers=3 --optimizer=nadam --wandb_project=da6401_test --weight_decay=0.5 --weight_init=random
+2026-03-07 19:03:55 INFO Running runs: ['t10kbujw']
+2026-03-07 19:07:40 INFO Cleaning up finished run: t10kbujw
+2026-03-07 19:07:41 INFO Agent received command: run
+2026-03-07 19:07:41 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 16
+	dataset: mnist
+	epochs: 10
+	learning_rate: 0.001
+	loss: cross_entropy
+	num_layers: 5
+	optimizer: rmsprop
+	wandb_project: da6401_test
+	weight_decay: 0.0005
+	weight_init: random
+2026-03-07 19:07:41 INFO About to run command: python src/train.py --activation=relu --batch_size=16 --dataset=mnist --epochs=10 --learning_rate=0.001 --loss=cross_entropy --num_layers=5 --optimizer=rmsprop --wandb_project=da6401_test --weight_decay=0.0005 --weight_init=random
+2026-03-07 19:07:46 INFO Running runs: ['xh5ihcwp']
+2026-03-07 19:09:24 INFO Cleaning up finished run: xh5ihcwp
+2026-03-07 19:09:24 INFO Agent received command: run
+2026-03-07 19:09:24 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 64
+	dataset: mnist
+	epochs: 10
+	learning_rate: 0.0001
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: adam
+	wandb_project: da6401_test
+	weight_decay: 0
+	weight_init: xavier
+2026-03-07 19:09:24 INFO About to run command: python src/train.py --activation=tanh --batch_size=64 --dataset=mnist --epochs=10 --learning_rate=0.0001 --loss=cross_entropy --num_layers=3 --optimizer=adam --wandb_project=da6401_test --weight_decay=0 --weight_init=xavier
+2026-03-07 19:09:29 INFO Running runs: ['musvchtp']
+2026-03-07 19:10:23 INFO Cleaning up finished run: musvchtp
+2026-03-07 19:10:24 INFO Agent received command: run
+2026-03-07 19:10:24 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 64
+	dataset: mnist
+	epochs: 10
+	learning_rate: 0.0001
+	loss: cross_entropy
+	num_layers: 4
+	optimizer: adam
+	wandb_project: da6401_test
+	weight_decay: 0.5
+	weight_init: random
+2026-03-07 19:10:24 INFO About to run command: python src/train.py --activation=relu --batch_size=64 --dataset=mnist --epochs=10 --learning_rate=0.0001 --loss=cross_entropy --num_layers=4 --optimizer=adam --wandb_project=da6401_test --weight_decay=0.5 --weight_init=random
+2026-03-07 19:10:29 INFO Running runs: ['toc4azk0']
+2026-03-07 19:11:17 INFO Cleaning up finished run: toc4azk0
+2026-03-07 19:11:18 INFO Agent received command: run
+2026-03-07 19:11:18 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 32
+	dataset: mnist
+	epochs: 10
+	learning_rate: 0.0001
+	loss: cross_entropy
+	num_layers: 4
+	optimizer: rmsprop
+	wandb_project: da6401_test
+	weight_decay: 0.5
+	weight_init: xavier
+2026-03-07 19:11:18 INFO About to run command: python src/train.py --activation=relu --batch_size=32 --dataset=mnist --epochs=10 --learning_rate=0.0001 --loss=cross_entropy --num_layers=4 --optimizer=rmsprop --wandb_project=da6401_test --weight_decay=0.5 --weight_init=xavier
+2026-03-07 19:11:23 INFO Running runs: ['3ygowv0m']
+2026-03-07 19:12:27 INFO Cleaning up finished run: 3ygowv0m
+2026-03-07 19:12:28 INFO Agent received command: run
+2026-03-07 19:12:28 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 32
+	dataset: mnist
+	epochs: 5
+	learning_rate: 0.001
+	loss: cross_entropy
+	num_layers: 5
+	optimizer: rmsprop
+	wandb_project: da6401_test
+	weight_decay: 0.5
+	weight_init: random
+2026-03-07 19:12:28 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=32 --dataset=mnist --epochs=5 --learning_rate=0.001 --loss=cross_entropy --num_layers=5 --optimizer=rmsprop --wandb_project=da6401_test --weight_decay=0.5 --weight_init=random
+2026-03-07 19:12:33 INFO Running runs: ['awzesqoh']
+2026-03-07 19:13:22 INFO Cleaning up finished run: awzesqoh
+2026-03-07 19:13:22 INFO Agent received command: run
+2026-03-07 19:13:22 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 64
+	dataset: mnist
+	epochs: 5
+	learning_rate: 0.0001
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: adam
+	wandb_project: da6401_test
+	weight_decay: 0
+	weight_init: xavier
+2026-03-07 19:13:22 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=64 --dataset=mnist --epochs=5 --learning_rate=0.0001 --loss=cross_entropy --num_layers=3 --optimizer=adam --wandb_project=da6401_test --weight_decay=0 --weight_init=xavier
+2026-03-07 19:13:27 INFO Running runs: ['vwg58541']
+2026-03-07 19:13:54 INFO Cleaning up finished run: vwg58541
+2026-03-07 19:13:55 INFO Agent received command: run
+2026-03-07 19:13:55 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 16
+	dataset: mnist
+	epochs: 10
+	learning_rate: 0.0001
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: sgd
+	wandb_project: da6401_test
+	weight_decay: 0.0005
+	weight_init: xavier
+2026-03-07 19:13:55 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=16 --dataset=mnist --epochs=10 --learning_rate=0.0001 --loss=cross_entropy --num_layers=3 --optimizer=sgd --wandb_project=da6401_test --weight_decay=0.0005 --weight_init=xavier
+2026-03-07 19:14:00 INFO Running runs: ['y0hgbinq']
+2026-03-07 19:14:55 INFO Cleaning up finished run: y0hgbinq
+2026-03-07 19:14:56 INFO Agent received command: run
+2026-03-07 19:14:56 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 32
+	dataset: mnist
+	epochs: 5
+	learning_rate: 0.001
+	loss: cross_entropy
+	num_layers: 4
+	optimizer: momentum
+	wandb_project: da6401_test
+	weight_decay: 0.0005
+	weight_init: xavier
+2026-03-07 19:14:56 INFO About to run command: python src/train.py --activation=tanh --batch_size=32 --dataset=mnist --epochs=5 --learning_rate=0.001 --loss=cross_entropy --num_layers=4 --optimizer=momentum --wandb_project=da6401_test --weight_decay=0.0005 --weight_init=xavier
+2026-03-07 19:15:01 INFO Running runs: ['vm6htuk4']
+2026-03-07 19:15:51 INFO Cleaning up finished run: vm6htuk4
+2026-03-07 19:15:51 INFO Agent received command: run
+2026-03-07 19:15:51 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 64
+	dataset: mnist
+	epochs: 10
+	learning_rate: 0.0001
+	loss: cross_entropy
+	num_layers: 5
+	optimizer: nag
+	wandb_project: da6401_test
+	weight_decay: 0.5
+	weight_init: random
+2026-03-07 19:15:51 INFO About to run command: python src/train.py --activation=relu --batch_size=64 --dataset=mnist --epochs=10 --learning_rate=0.0001 --loss=cross_entropy --num_layers=5 --optimizer=nag --wandb_project=da6401_test --weight_decay=0.5 --weight_init=random
+2026-03-07 19:15:56 INFO Running runs: ['qmca77b4']
+2026-03-07 19:17:02 INFO Cleaning up finished run: qmca77b4
+2026-03-07 19:17:02 INFO Agent received command: run
+2026-03-07 19:17:02 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 32
+	dataset: mnist
+	epochs: 5
+	learning_rate: 0.001
+	loss: cross_entropy
+	num_layers: 5
+	optimizer: momentum
+	wandb_project: da6401_test
+	weight_decay: 0.5
+	weight_init: random
+2026-03-07 19:17:02 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=32 --dataset=mnist --epochs=5 --learning_rate=0.001 --loss=cross_entropy --num_layers=5 --optimizer=momentum --wandb_project=da6401_test --weight_decay=0.5 --weight_init=random
+2026-03-07 19:17:07 INFO Running runs: ['6yvbzfz6']
+2026-03-07 19:17:50 INFO Cleaning up finished run: 6yvbzfz6
+2026-03-07 19:17:51 INFO Agent received command: run
+2026-03-07 19:17:51 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 16
+	dataset: mnist
+	epochs: 5
+	learning_rate: 0.001
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: rmsprop
+	wandb_project: da6401_test
+	weight_decay: 0
+	weight_init: xavier
+2026-03-07 19:17:51 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=16 --dataset=mnist --epochs=5 --learning_rate=0.001 --loss=cross_entropy --num_layers=3 --optimizer=rmsprop --wandb_project=da6401_test --weight_decay=0 --weight_init=xavier
+2026-03-07 19:17:56 INFO Running runs: ['prgwfz6c']
+2026-03-07 19:19:05 INFO Cleaning up finished run: prgwfz6c
+2026-03-07 19:19:06 INFO Agent received command: run
+2026-03-07 19:19:06 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 32
+	dataset: mnist
+	epochs: 10
+	learning_rate: 0.001
+	loss: cross_entropy
+	num_layers: 5
+	optimizer: rmsprop
+	wandb_project: da6401_test
+	weight_decay: 0.0005
+	weight_init: xavier
+2026-03-07 19:19:06 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=32 --dataset=mnist --epochs=10 --learning_rate=0.001 --loss=cross_entropy --num_layers=5 --optimizer=rmsprop --wandb_project=da6401_test --weight_decay=0.0005 --weight_init=xavier
+2026-03-07 19:19:11 INFO Running runs: ['juro8vhs']
+2026-03-07 19:21:45 INFO Cleaning up finished run: juro8vhs
+2026-03-07 19:21:46 INFO Agent received command: run
+2026-03-07 19:21:46 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 32
+	dataset: mnist
+	epochs: 5
+	learning_rate: 0.001
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: nag
+	wandb_project: da6401_test
+	weight_decay: 0
+	weight_init: xavier
+2026-03-07 19:21:46 INFO About to run command: python src/train.py --activation=relu --batch_size=32 --dataset=mnist --epochs=5 --learning_rate=0.001 --loss=cross_entropy --num_layers=3 --optimizer=nag --wandb_project=da6401_test --weight_decay=0 --weight_init=xavier
+2026-03-07 19:21:51 INFO Running runs: ['pt96pc23']
+2026-03-07 19:22:23 INFO Cleaning up finished run: pt96pc23
+2026-03-07 19:22:24 INFO Agent received command: run
+2026-03-07 19:22:24 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 32
+	dataset: mnist
+	epochs: 5
+	learning_rate: 0.0001
+	loss: cross_entropy
+	num_layers: 4
+	optimizer: nadam
+	wandb_project: da6401_test
+	weight_decay: 0.0005
+	weight_init: random
+2026-03-07 19:22:24 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=32 --dataset=mnist --epochs=5 --learning_rate=0.0001 --loss=cross_entropy --num_layers=4 --optimizer=nadam --wandb_project=da6401_test --weight_decay=0.0005 --weight_init=random
+2026-03-07 19:22:29 INFO Running runs: ['42hlk3ou']
+2026-03-07 19:23:22 INFO Cleaning up finished run: 42hlk3ou
+2026-03-07 19:23:23 INFO Agent received command: run
+2026-03-07 19:23:23 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 32
+	dataset: mnist
+	epochs: 10
+	learning_rate: 0.001
+	loss: cross_entropy
+	num_layers: 5
+	optimizer: nag
+	wandb_project: da6401_test
+	weight_decay: 0.0005
+	weight_init: random
+2026-03-07 19:23:23 INFO About to run command: python src/train.py --activation=relu --batch_size=32 --dataset=mnist --epochs=10 --learning_rate=0.001 --loss=cross_entropy --num_layers=5 --optimizer=nag --wandb_project=da6401_test --weight_decay=0.0005 --weight_init=random
+2026-03-07 19:23:28 INFO Running runs: ['ksrg9ij9']
+2026-03-07 19:24:37 INFO Cleaning up finished run: ksrg9ij9
+2026-03-07 19:24:37 INFO Agent received command: run
+2026-03-07 19:24:37 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 16
+	dataset: mnist
+	epochs: 5
+	learning_rate: 0.001
+	loss: cross_entropy
+	num_layers: 5
+	optimizer: nadam
+	wandb_project: da6401_test
+	weight_decay: 0.0005
+	weight_init: xavier
+2026-03-07 19:24:37 INFO About to run command: python src/train.py --activation=relu --batch_size=16 --dataset=mnist --epochs=5 --learning_rate=0.001 --loss=cross_entropy --num_layers=5 --optimizer=nadam --wandb_project=da6401_test --weight_decay=0.0005 --weight_init=xavier
+2026-03-07 19:24:42 INFO Running runs: ['r0bdkl6l']
+2026-03-07 19:27:01 INFO Cleaning up finished run: r0bdkl6l
+2026-03-07 19:27:01 INFO Agent received command: run
+2026-03-07 19:27:01 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 64
+	dataset: mnist
+	epochs: 5
+	learning_rate: 0.0001
+	loss: cross_entropy
+	num_layers: 5
+	optimizer: momentum
+	wandb_project: da6401_test
+	weight_decay: 0.5
+	weight_init: xavier
+2026-03-07 19:27:01 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=64 --dataset=mnist --epochs=5 --learning_rate=0.0001 --loss=cross_entropy --num_layers=5 --optimizer=momentum --wandb_project=da6401_test --weight_decay=0.5 --weight_init=xavier
+2026-03-07 19:27:06 INFO Running runs: ['nutwqtjq']
+2026-03-07 19:27:33 INFO Cleaning up finished run: nutwqtjq
+2026-03-07 19:27:34 INFO Agent received command: run
+2026-03-07 19:27:34 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 64
+	dataset: mnist
+	epochs: 10
+	learning_rate: 0.0001
+	loss: cross_entropy
+	num_layers: 5
+	optimizer: nag
+	wandb_project: da6401_test
+	weight_decay: 0.5
+	weight_init: random
+2026-03-07 19:27:34 INFO About to run command: python src/train.py --activation=relu --batch_size=64 --dataset=mnist --epochs=10 --learning_rate=0.0001 --loss=cross_entropy --num_layers=5 --optimizer=nag --wandb_project=da6401_test --weight_decay=0.5 --weight_init=random
+2026-03-07 19:27:39 INFO Running runs: ['ar6da5pm']
+2026-03-07 19:28:53 INFO Cleaning up finished run: ar6da5pm
+2026-03-07 19:28:54 INFO Agent received command: run
+2026-03-07 19:28:54 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 16
+	dataset: mnist
+	epochs: 5
+	learning_rate: 0.001
+	loss: cross_entropy
+	num_layers: 5
+	optimizer: sgd
+	wandb_project: da6401_test
+	weight_decay: 0
+	weight_init: random
+2026-03-07 19:28:54 INFO About to run command: python src/train.py --activation=relu --batch_size=16 --dataset=mnist --epochs=5 --learning_rate=0.001 --loss=cross_entropy --num_layers=5 --optimizer=sgd --wandb_project=da6401_test --weight_decay=0 --weight_init=random
+2026-03-07 19:28:59 INFO Running runs: ['mf07ompt']
+2026-03-07 19:29:41 INFO Cleaning up finished run: mf07ompt
+2026-03-07 19:29:42 INFO Agent received command: run
+2026-03-07 19:29:42 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 32
+	dataset: mnist
+	epochs: 10
+	learning_rate: 0.001
+	loss: cross_entropy
+	num_layers: 5
+	optimizer: nadam
+	wandb_project: da6401_test
+	weight_decay: 0
+	weight_init: xavier
+2026-03-07 19:29:42 INFO About to run command: python src/train.py --activation=relu --batch_size=32 --dataset=mnist --epochs=10 --learning_rate=0.001 --loss=cross_entropy --num_layers=5 --optimizer=nadam --wandb_project=da6401_test --weight_decay=0 --weight_init=xavier
+2026-03-07 19:29:47 INFO Running runs: ['xvtf1c1i']
+2026-03-07 19:31:44 INFO Cleaning up finished run: xvtf1c1i
+2026-03-07 19:31:45 INFO Agent received command: run
+2026-03-07 19:31:45 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 16
+	dataset: mnist
+	epochs: 10
+	learning_rate: 0.001
+	loss: cross_entropy
+	num_layers: 5
+	optimizer: momentum
+	wandb_project: da6401_test
+	weight_decay: 0.5
+	weight_init: xavier
+2026-03-07 19:31:45 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=16 --dataset=mnist --epochs=10 --learning_rate=0.001 --loss=cross_entropy --num_layers=5 --optimizer=momentum --wandb_project=da6401_test --weight_decay=0.5 --weight_init=xavier
+2026-03-07 19:31:50 INFO Running runs: ['aijme1cd']
+2026-03-07 19:33:21 INFO Cleaning up finished run: aijme1cd
+2026-03-07 19:33:22 INFO Agent received command: run
+2026-03-07 19:33:22 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 16
+	dataset: mnist
+	epochs: 5
+	learning_rate: 0.0001
+	loss: cross_entropy
+	num_layers: 4
+	optimizer: momentum
+	wandb_project: da6401_test
+	weight_decay: 0
+	weight_init: random
+2026-03-07 19:33:22 INFO About to run command: python src/train.py --activation=relu --batch_size=16 --dataset=mnist --epochs=5 --learning_rate=0.0001 --loss=cross_entropy --num_layers=4 --optimizer=momentum --wandb_project=da6401_test --weight_decay=0 --weight_init=random
+2026-03-07 19:33:27 INFO Running runs: ['lrczcuy6']
+2026-03-07 19:34:10 INFO Cleaning up finished run: lrczcuy6
+2026-03-07 19:34:10 INFO Agent received command: run
+2026-03-07 19:34:10 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 32
+	dataset: mnist
+	epochs: 10
+	learning_rate: 0.001
+	loss: cross_entropy
+	num_layers: 5
+	optimizer: adam
+	wandb_project: da6401_test
+	weight_decay: 0.0005
+	weight_init: random
+2026-03-07 19:34:10 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=32 --dataset=mnist --epochs=10 --learning_rate=0.001 --loss=cross_entropy --num_layers=5 --optimizer=adam --wandb_project=da6401_test --weight_decay=0.0005 --weight_init=random
+2026-03-07 19:34:15 INFO Running runs: ['utr1gq5h']
+2026-03-07 19:36:02 INFO Cleaning up finished run: utr1gq5h
+2026-03-07 19:36:03 INFO Agent received command: run
+2026-03-07 19:36:03 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 64
+	dataset: mnist
+	epochs: 5
+	learning_rate: 0.001
+	loss: cross_entropy
+	num_layers: 5
+	optimizer: nag
+	wandb_project: da6401_test
+	weight_decay: 0
+	weight_init: xavier
+2026-03-07 19:36:03 INFO About to run command: python src/train.py --activation=tanh --batch_size=64 --dataset=mnist --epochs=5 --learning_rate=0.001 --loss=cross_entropy --num_layers=5 --optimizer=nag --wandb_project=da6401_test --weight_decay=0 --weight_init=xavier
+2026-03-07 19:36:08 INFO Running runs: ['y1wysxfl']
+2026-03-07 19:36:45 INFO Cleaning up finished run: y1wysxfl
+2026-03-07 19:36:46 INFO Agent received command: run
+2026-03-07 19:36:46 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 32
+	dataset: mnist
+	epochs: 10
+	learning_rate: 0.001
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: nag
+	wandb_project: da6401_test
+	weight_decay: 0.0005
+	weight_init: xavier
+2026-03-07 19:36:46 INFO About to run command: python src/train.py --activation=relu --batch_size=32 --dataset=mnist --epochs=10 --learning_rate=0.001 --loss=cross_entropy --num_layers=3 --optimizer=nag --wandb_project=da6401_test --weight_decay=0.0005 --weight_init=xavier
+2026-03-07 19:36:51 INFO Running runs: ['ueelj8z6']
+2026-03-07 19:37:49 INFO Cleaning up finished run: ueelj8z6
+2026-03-07 19:37:50 INFO Agent received command: run
+2026-03-07 19:37:50 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 16
+	dataset: mnist
+	epochs: 5
+	learning_rate: 0.0001
+	loss: cross_entropy
+	num_layers: 4
+	optimizer: sgd
+	wandb_project: da6401_test
+	weight_decay: 0.5
+	weight_init: random
+2026-03-07 19:37:50 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=16 --dataset=mnist --epochs=5 --learning_rate=0.0001 --loss=cross_entropy --num_layers=4 --optimizer=sgd --wandb_project=da6401_test --weight_decay=0.5 --weight_init=random
+2026-03-07 19:37:55 INFO Running runs: ['8td4f2ho']
+2026-03-07 19:38:48 INFO Cleaning up finished run: 8td4f2ho
+2026-03-07 19:38:49 INFO Agent received command: run
+2026-03-07 19:38:49 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 32
+	dataset: mnist
+	epochs: 5
+	learning_rate: 0.001
+	loss: cross_entropy
+	num_layers: 5
+	optimizer: nadam
+	wandb_project: da6401_test
+	weight_decay: 0
+	weight_init: random
+2026-03-07 19:38:49 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=32 --dataset=mnist --epochs=5 --learning_rate=0.001 --loss=cross_entropy --num_layers=5 --optimizer=nadam --wandb_project=da6401_test --weight_decay=0 --weight_init=random
+2026-03-07 19:38:54 INFO Running runs: ['pnb40i4h']
+2026-03-07 19:40:09 INFO Cleaning up finished run: pnb40i4h
+2026-03-07 19:40:10 INFO Agent received command: run
+2026-03-07 19:40:10 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 32
+	dataset: mnist
+	epochs: 10
+	learning_rate: 0.001
+	loss: cross_entropy
+	num_layers: 4
+	optimizer: rmsprop
+	wandb_project: da6401_test
+	weight_decay: 0
+	weight_init: xavier
+2026-03-07 19:40:10 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=32 --dataset=mnist --epochs=10 --learning_rate=0.001 --loss=cross_entropy --num_layers=4 --optimizer=rmsprop --wandb_project=da6401_test --weight_decay=0 --weight_init=xavier
+2026-03-07 19:40:15 INFO Running runs: ['ol0m7lyu']
+2026-03-07 19:41:40 INFO Cleaning up finished run: ol0m7lyu
+2026-03-07 19:41:41 INFO Agent received command: run
+2026-03-07 19:41:41 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 32
+	dataset: mnist
+	epochs: 10
+	learning_rate: 0.0001
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: momentum
+	wandb_project: da6401_test
+	weight_decay: 0.5
+	weight_init: xavier
+2026-03-07 19:41:41 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=32 --dataset=mnist --epochs=10 --learning_rate=0.0001 --loss=cross_entropy --num_layers=3 --optimizer=momentum --wandb_project=da6401_test --weight_decay=0.5 --weight_init=xavier
+2026-03-07 19:41:46 INFO Running runs: ['d4ob0w5g']
+2026-03-07 19:42:40 INFO Cleaning up finished run: d4ob0w5g
+2026-03-07 19:42:41 INFO Agent received command: run
+2026-03-07 19:42:41 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 16
+	dataset: mnist
+	epochs: 10
+	learning_rate: 0.0001
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: sgd
+	wandb_project: da6401_test
+	weight_decay: 0.0005
+	weight_init: xavier
+2026-03-07 19:42:41 INFO About to run command: python src/train.py --activation=relu --batch_size=16 --dataset=mnist --epochs=10 --learning_rate=0.0001 --loss=cross_entropy --num_layers=3 --optimizer=sgd --wandb_project=da6401_test --weight_decay=0.0005 --weight_init=xavier
+2026-03-07 19:42:46 INFO Running runs: ['i4ab6iro']
+2026-03-07 19:44:01 INFO Cleaning up finished run: i4ab6iro
+2026-03-07 19:44:02 INFO Agent received command: run
+2026-03-07 19:44:02 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 32
+	dataset: mnist
+	epochs: 10
+	learning_rate: 0.0001
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: sgd
+	wandb_project: da6401_test
+	weight_decay: 0.0005
+	weight_init: random
+2026-03-07 19:44:02 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=32 --dataset=mnist --epochs=10 --learning_rate=0.0001 --loss=cross_entropy --num_layers=3 --optimizer=sgd --wandb_project=da6401_test --weight_decay=0.0005 --weight_init=random
+2026-03-07 19:44:07 INFO Running runs: ['38s7m93l']
+2026-03-07 19:44:49 INFO Cleaning up finished run: 38s7m93l
+2026-03-07 19:44:50 INFO Agent received command: run
+2026-03-07 19:44:50 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 32
+	dataset: mnist
+	epochs: 5
+	learning_rate: 0.0001
+	loss: cross_entropy
+	num_layers: 4
+	optimizer: rmsprop
+	wandb_project: da6401_test
+	weight_decay: 0.5
+	weight_init: random
+2026-03-07 19:44:50 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=32 --dataset=mnist --epochs=5 --learning_rate=0.0001 --loss=cross_entropy --num_layers=4 --optimizer=rmsprop --wandb_project=da6401_test --weight_decay=0.5 --weight_init=random
+2026-03-07 19:44:55 INFO Running runs: ['4w61esbo']
+2026-03-07 19:45:32 INFO Cleaning up finished run: 4w61esbo
+2026-03-07 19:45:33 INFO Agent received command: run
+2026-03-07 19:45:33 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 16
+	dataset: mnist
+	epochs: 10
+	learning_rate: 0.001
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: adam
+	wandb_project: da6401_test
+	weight_decay: 0.5
+	weight_init: xavier
+2026-03-07 19:45:33 INFO About to run command: python src/train.py --activation=relu --batch_size=16 --dataset=mnist --epochs=10 --learning_rate=0.001 --loss=cross_entropy --num_layers=3 --optimizer=adam --wandb_project=da6401_test --weight_decay=0.5 --weight_init=xavier
+2026-03-07 19:45:38 INFO Running runs: ['s4ltt8zk']
+2026-03-07 19:47:57 INFO Cleaning up finished run: s4ltt8zk
+2026-03-07 19:47:58 INFO Agent received command: run
+2026-03-07 19:47:58 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 16
+	dataset: mnist
+	epochs: 10
+	learning_rate: 0.0001
+	loss: cross_entropy
+	num_layers: 4
+	optimizer: nadam
+	wandb_project: da6401_test
+	weight_decay: 0.5
+	weight_init: random
+2026-03-07 19:47:58 INFO About to run command: python src/train.py --activation=relu --batch_size=16 --dataset=mnist --epochs=10 --learning_rate=0.0001 --loss=cross_entropy --num_layers=4 --optimizer=nadam --wandb_project=da6401_test --weight_decay=0.5 --weight_init=random
+2026-03-07 19:48:03 INFO Running runs: ['okkes4m4']

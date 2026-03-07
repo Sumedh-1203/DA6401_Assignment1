@@ -1,0 +1,11 @@
+{"time":"2026-03-07T20:47:48.5686733+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-07T20:47:49.0980075+05:30","level":"INFO","msg":"stream: created new stream","id":"xg64ewix"}
+{"time":"2026-03-07T20:47:49.0980075+05:30","level":"INFO","msg":"handler: started","stream_id":"xg64ewix"}
+{"time":"2026-03-07T20:47:49.0985408+05:30","level":"INFO","msg":"stream: started","id":"xg64ewix"}
+{"time":"2026-03-07T20:47:49.0985408+05:30","level":"INFO","msg":"writer: started","stream_id":"xg64ewix"}
+{"time":"2026-03-07T20:47:49.0985408+05:30","level":"INFO","msg":"sender: started","stream_id":"xg64ewix"}
+{"time":"2026-03-07T20:48:43.8518059+05:30","level":"INFO","msg":"stream: closing","id":"xg64ewix"}
+{"time":"2026-03-07T20:48:44.5448253+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-07T20:48:44.8713757+05:30","level":"INFO","msg":"handler: closed","stream_id":"xg64ewix"}
+{"time":"2026-03-07T20:48:44.876369+05:30","level":"INFO","msg":"sender: closed","stream_id":"xg64ewix"}
+{"time":"2026-03-07T20:48:44.876369+05:30","level":"INFO","msg":"stream: closed","id":"xg64ewix"}

@@ -10,18 +10,14 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 from ann.neural_network import NeuralNetwork
 from utils.data_loader import load_dataset
 
+# ADDED IMPORTS FOR ERROR ANALYSIS
+import matplotlib.pyplot as plt
+from sklearn.metrics import confusion_matrix
+
 
 def parse_arguments():
     """
     Parse command-line arguments for inference.
-    
-    TODO: Implement argparse with:
-    - model_path: Path to saved model weights(do not give absolute path, rather provide relative path)
-    - dataset: Dataset to evaluate on
-    - batch_size: Batch size for inference
-    - hidden_layers: List of hidden layer sizes
-    - num_neurons: Number of neurons in hidden layers
-    - activation: Activation function ('relu', 'sigmoid', 'tanh')
     """
     parser = argparse.ArgumentParser(description='Run inference on test set')
 
@@ -32,7 +28,7 @@ def parse_arguments():
     parser.add_argument("-sz", "--hidden_size", type=int, nargs="+", default=[128, 128])
     parser.add_argument("-a", "--activation", type=str, default="relu")
     parser.add_argument("-l", "--loss", type=str, default="cross_entropy")
-    parser.add_argument("-wi", "--weight_init", type=str, default="xavier")
+    parser.add_argument("-w_i", "--weight_init", type=str, default="xavier")
     parser.add_argument("-o", "--optimizer", type=str, default="sgd")
     parser.add_argument("-lr", "--learning_rate", type=float, default=0.001)
     parser.add_argument("-wd", "--weight_decay", type=float, default=0.0)
@@ -50,8 +46,6 @@ def load_model(model_path):
 def evaluate_model(model, X_test, y_test): 
     """
     Evaluate model on test data.
-        
-    TODO: Return Dictionary - logits, loss, accuracy, f1, precision, recall
     """
     logits = model.forward(X_test)
     loss = model.loss_fn.forward(logits, y_test)
@@ -78,15 +72,10 @@ def evaluate_model(model, X_test, y_test):
 def main():
     """
     Main inference function.
-
-    TODO: Must return Dictionary - logits, loss, accuracy, f1, precision, recall
     """
     args = parse_arguments()
 
     X_train, y_train, X_test, y_test = load_dataset(args.dataset)
-
-    if len(args.hidden_size) != args.num_layers:
-        raise ValueError("hidden_size length must match num_layers")
 
     model = NeuralNetwork(args)
 
@@ -102,8 +91,55 @@ def main():
 
     print("Evaluation complete!")
 
+    # ------------------------------
+    # ERROR ANALYSIS SECTION
+    # ------------------------------
+
+    logits = results["logits"]
+    probs = model.loss_fn.probs
+
+    preds = np.argmax(probs, axis=1)
+    true = np.argmax(y_test, axis=1)
+
+    # Confusion Matrix
+    cm = confusion_matrix(true, preds)
+
+    plt.figure(figsize=(8,6))
+    plt.imshow(cm, cmap="Blues")
+    plt.colorbar()
+
+    plt.xlabel("Predicted Label")
+    plt.ylabel("True Label")
+    plt.title("Confusion Matrix - Test Set")
+
+    # Add numbers inside matrix
+    for i in range(cm.shape[0]):
+        for j in range(cm.shape[1]):
+            plt.text(j, i, cm[i, j], ha="center", va="center", color="black")
+
+    plt.savefig("confusion_matrix.png")
+    plt.close()
+
+    # Misclassified examples visualization
+    mis_idx = np.where(preds != true)[0]
+
+    fig, axes = plt.subplots(5,5, figsize=(8,8))
+
+    for i, ax in enumerate(axes.flatten()):
+        idx = mis_idx[i]
+
+        ax.imshow(X_test[idx].reshape(28, 28), cmap="gray")
+        ax.set_title(f"T:{true[idx]} P:{preds[idx]}")
+        ax.axis("off")
+
+    plt.suptitle("Misclassified Test Images")
+
+    plt.savefig("misclassified_examples.png")
+    plt.close()
+
     return results
 
 
 if __name__ == '__main__':
     main()
+    

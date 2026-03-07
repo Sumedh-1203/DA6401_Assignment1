@@ -1,0 +1,11 @@
+{"time":"2026-03-07T19:09:32.3177087+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-07T19:09:32.9851764+05:30","level":"INFO","msg":"stream: created new stream","id":"musvchtp"}
+{"time":"2026-03-07T19:09:32.9859178+05:30","level":"INFO","msg":"handler: started","stream_id":"musvchtp"}
+{"time":"2026-03-07T19:09:32.9865582+05:30","level":"INFO","msg":"stream: started","id":"musvchtp"}
+{"time":"2026-03-07T19:09:32.9865582+05:30","level":"INFO","msg":"writer: started","stream_id":"musvchtp"}
+{"time":"2026-03-07T19:09:32.9865582+05:30","level":"INFO","msg":"sender: started","stream_id":"musvchtp"}
+{"time":"2026-03-07T19:10:18.4579756+05:30","level":"INFO","msg":"stream: closing","id":"musvchtp"}
+{"time":"2026-03-07T19:10:19.4865779+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-07T19:10:19.8833397+05:30","level":"INFO","msg":"handler: closed","stream_id":"musvchtp"}
+{"time":"2026-03-07T19:10:19.8887211+05:30","level":"INFO","msg":"sender: closed","stream_id":"musvchtp"}
+{"time":"2026-03-07T19:10:19.8887211+05:30","level":"INFO","msg":"stream: closed","id":"musvchtp"}

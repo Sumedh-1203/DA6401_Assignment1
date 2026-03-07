@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "C:\Users\DELL\Sumedh\Academics\DA6401\Ass1\da6401_assignment_1\src\train.py", line 121, in <module>
+    main()
+  File "C:\Users\DELL\Sumedh\Academics\DA6401\Ass1\da6401_assignment_1\src\train.py", line 73, in main
+    raise ValueError("Number of hidden layer sizes must match num_layers")
+ValueError: Number of hidden layer sizes must match num_layers

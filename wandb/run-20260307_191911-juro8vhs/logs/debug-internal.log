@@ -1,0 +1,11 @@
+{"time":"2026-03-07T19:19:13.9455012+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-07T19:19:14.3624832+05:30","level":"INFO","msg":"stream: created new stream","id":"juro8vhs"}
+{"time":"2026-03-07T19:19:14.3630775+05:30","level":"INFO","msg":"handler: started","stream_id":"juro8vhs"}
+{"time":"2026-03-07T19:19:14.3635929+05:30","level":"INFO","msg":"stream: started","id":"juro8vhs"}
+{"time":"2026-03-07T19:19:14.3635929+05:30","level":"INFO","msg":"writer: started","stream_id":"juro8vhs"}
+{"time":"2026-03-07T19:19:14.3635929+05:30","level":"INFO","msg":"sender: started","stream_id":"juro8vhs"}
+{"time":"2026-03-07T19:21:39.7755847+05:30","level":"INFO","msg":"stream: closing","id":"juro8vhs"}
+{"time":"2026-03-07T19:21:41.4403388+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-07T19:21:41.8431642+05:30","level":"INFO","msg":"handler: closed","stream_id":"juro8vhs"}
+{"time":"2026-03-07T19:21:41.8490906+05:30","level":"INFO","msg":"sender: closed","stream_id":"juro8vhs"}
+{"time":"2026-03-07T19:21:41.8490906+05:30","level":"INFO","msg":"stream: closed","id":"juro8vhs"}

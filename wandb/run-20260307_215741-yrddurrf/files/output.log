@@ -1,0 +1,28 @@
+Epoch 1/50 - F1: 0.9212
+Epoch 2/50 - F1: 0.9338
+Epoch 3/50 - F1: 0.9368
+Epoch 4/50 - F1: 0.9441
+Epoch 5/50 - F1: 0.9446
+Epoch 6/50 - F1: 0.9481
+Epoch 7/50 - F1: 0.9484
+Epoch 8/50 - F1: 0.9472
+Epoch 9/50 - F1: 0.9502
+Epoch 10/50 - F1: 0.9523
+Epoch 11/50 - F1: 0.9505
+Epoch 12/50 - F1: 0.9530
+Epoch 13/50 - F1: 0.9518
+Epoch 14/50 - F1: 0.9480
+Epoch 15/50 - F1: 0.9517
+Epoch 16/50 - F1: 0.9545
+Traceback (most recent call last):
+  File "C:\Users\DELL\Sumedh\Academics\DA6401\Ass1\da6401_assignment_1\src\train.py", line 143, in <module>
+    main()
+  File "C:\Users\DELL\Sumedh\Academics\DA6401\Ass1\da6401_assignment_1\src\train.py", line 81, in main
+    model.train(X_train, y_train, epochs=1, batch_size=args.batch_size)
+  File "C:\Users\DELL\Sumedh\Academics\DA6401\Ass1\da6401_assignment_1\src\ann\neural_network.py", line 116, in train
+    loss = self.loss_fn.forward(logits, y_batch)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\Sumedh\Academics\DA6401\Ass1\da6401_assignment_1\src\ann\objective_functions.py", line 16, in forward
+    loss = -np.sum(y_true * np.log(self.probs + 1e-12)) / m
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

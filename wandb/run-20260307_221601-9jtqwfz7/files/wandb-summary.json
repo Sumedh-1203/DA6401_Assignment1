@@ -1,0 +1,1 @@
+{"grad_n2":0,"epoch":10,"_step":29,"grad_norm_layer1":0.9135495387524759,"_timestamp":1.7729020719975276e+09,"grad_n1":0,"grad_n3":0,"grad_n5":0.02215881330818877,"grad_n4":7.618373596398443e-60,"_runtime":107,"dead_neuron_ratio":0.80145078125,"f1_score":0.8772858052816366,"_wandb":{"runtime":107}}

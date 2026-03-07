@@ -1,0 +1,11 @@
+{"time":"2026-03-07T19:39:22.1719437+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-07T19:39:22.6950612+05:30","level":"INFO","msg":"stream: created new stream","id":"4baz2pql"}
+{"time":"2026-03-07T19:39:22.6950612+05:30","level":"INFO","msg":"handler: started","stream_id":"4baz2pql"}
+{"time":"2026-03-07T19:39:22.6955964+05:30","level":"INFO","msg":"stream: started","id":"4baz2pql"}
+{"time":"2026-03-07T19:39:22.6955964+05:30","level":"INFO","msg":"writer: started","stream_id":"4baz2pql"}
+{"time":"2026-03-07T19:39:22.6961158+05:30","level":"INFO","msg":"sender: started","stream_id":"4baz2pql"}
+{"time":"2026-03-07T19:40:26.0047391+05:30","level":"INFO","msg":"stream: closing","id":"4baz2pql"}
+{"time":"2026-03-07T19:40:26.6560836+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-07T19:40:27.0513058+05:30","level":"INFO","msg":"handler: closed","stream_id":"4baz2pql"}
+{"time":"2026-03-07T19:40:27.0566534+05:30","level":"INFO","msg":"sender: closed","stream_id":"4baz2pql"}
+{"time":"2026-03-07T19:40:27.0566534+05:30","level":"INFO","msg":"stream: closed","id":"4baz2pql"}

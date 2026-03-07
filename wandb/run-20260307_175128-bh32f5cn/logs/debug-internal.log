@@ -1,0 +1,12 @@
+{"time":"2026-03-07T17:51:31.0878826+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-07T17:51:32.0054576+05:30","level":"INFO","msg":"stream: created new stream","id":"bh32f5cn"}
+{"time":"2026-03-07T17:51:32.0059614+05:30","level":"INFO","msg":"handler: started","stream_id":"bh32f5cn"}
+{"time":"2026-03-07T17:51:32.0059614+05:30","level":"INFO","msg":"stream: started","id":"bh32f5cn"}
+{"time":"2026-03-07T17:51:32.0059614+05:30","level":"INFO","msg":"writer: started","stream_id":"bh32f5cn"}
+{"time":"2026-03-07T17:51:32.0059614+05:30","level":"INFO","msg":"sender: started","stream_id":"bh32f5cn"}
+{"time":"2026-03-07T17:51:42.3455976+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-07T17:51:42.7158913+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-03-07T17:51:42.7210366+05:30","level":"INFO","msg":"stream: closing","id":"bh32f5cn"}
+{"time":"2026-03-07T17:51:42.7210366+05:30","level":"INFO","msg":"handler: closed","stream_id":"bh32f5cn"}
+{"time":"2026-03-07T17:51:42.7264404+05:30","level":"INFO","msg":"sender: closed","stream_id":"bh32f5cn"}
+{"time":"2026-03-07T17:51:42.7264404+05:30","level":"INFO","msg":"stream: closed","id":"bh32f5cn"}

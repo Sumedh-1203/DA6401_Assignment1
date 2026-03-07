@@ -1,0 +1,11 @@
+Epoch 1/10 - F1: 0.9135
+Epoch 2/10 - F1: 0.9299
+Epoch 3/10 - F1: 0.9386
+Epoch 4/10 - F1: 0.9436
+Epoch 5/10 - F1: 0.9521
+Epoch 6/10 - F1: 0.9558
+Epoch 7/10 - F1: 0.9589
+Epoch 8/10 - F1: 0.9629
+Epoch 9/10 - F1: 0.9643
+Epoch 10/10 - F1: 0.9677
+Training complete!

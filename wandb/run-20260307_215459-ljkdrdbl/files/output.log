@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "C:\Users\DELL\Sumedh\Academics\DA6401\Ass1\da6401_assignment_1\src\train.py", line 143, in <module>
+    main()
+  File "C:\Users\DELL\Sumedh\Academics\DA6401\Ass1\da6401_assignment_1\src\train.py", line 81, in main
+    model.train(X_train, y_train, epochs=50, batch_size=args.batch_size)
+  File "C:\Users\DELL\Sumedh\Academics\DA6401\Ass1\da6401_assignment_1\src\ann\neural_network.py", line 115, in train
+    logits = self.forward(X_batch)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\Sumedh\Academics\DA6401\Ass1\da6401_assignment_1\src\ann\neural_network.py", line 68, in forward
+    X = layer.forward(X)
+        ^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\Sumedh\Academics\DA6401\Ass1\da6401_assignment_1\src\ann\neural_layer.py", line 61, in forward
+    self.A = self.activation.forward(self.Z)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\Sumedh\Academics\DA6401\Ass1\da6401_assignment_1\src\ann\activations.py", line 10, in forward
+    def forward(self, Z):
+
+KeyboardInterrupt

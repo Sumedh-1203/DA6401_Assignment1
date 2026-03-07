@@ -1,0 +1,57 @@
+_wandb:
+    value:
+        cli_version: 0.25.0
+        e:
+            kdrh37t9wghsduuqnvktfk2zzqgtcdag:
+                args:
+                    - -d
+                    - mnist
+                    - -w_p
+                    - da6401_test
+                codePath: src\data_exploration.py
+                codePathLocal: src\data_exploration.py
+                cpu_count: 4
+                cpu_count_logical: 8
+                disk:
+                    /:
+                        total: "511201767424"
+                        used: "99039809536"
+                email: sumedh2.1203@gmail.com
+                executable: C:\Users\DELL\miniconda3\envs\DA6401\python.exe
+                git:
+                    commit: 729d93b92cc0c0fa7f128dfff015caf3964f4320
+                    remote: https://github.com/Sumedh-1203/DA6401_Assignment1.git
+                host: DESKTOP-3UEJL9V
+                memory:
+                    total: "16910159872"
+                os: Windows-11-10.0.26200-SP0
+                program: C:\Users\DELL\Sumedh\Academics\DA6401\Ass1\da6401_assignment_1\src\data_exploration.py
+                python: CPython 3.12.12
+                root: C:\Users\DELL\Sumedh\Academics\DA6401\Ass1\da6401_assignment_1
+                startedAt: "2026-03-07T12:24:28.667246Z"
+                writerId: kdrh37t9wghsduuqnvktfk2zzqgtcdag
+        m: []
+        python_version: 3.12.12
+        t:
+            "1":
+                - 2
+                - 3
+                - 5
+                - 53
+            "2":
+                - 2
+                - 3
+                - 5
+                - 53
+            "3":
+                - 2
+                - 13
+                - 16
+            "4": 3.12.12
+            "5": 0.25.0
+            "8":
+                - 3
+            "12": 0.25.0
+            "13": windows-amd64
+dataset:
+    value: mnist

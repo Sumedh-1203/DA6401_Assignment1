@@ -45,6 +45,9 @@ class NeuralLayer:
         elif self.weight_init == "xavier":
             limit = np.sqrt(2.0 / (self.in_features + self.out_features))
             self.W = np.random.randn(self.in_features, self.out_features) * limit
+        elif self.weight_init == "zeros":
+            self.W = np.zeros((self.in_features, self.out_features))
+            self.b = np.zeros((1, self.out_features))
         else:
             raise ValueError("Unsupported weight initialization")
 

@@ -1,0 +1,90 @@
+_wandb:
+    value:
+        cli_version: 0.25.0
+        e:
+            t03la1celmno527nk5ig1mj5xf80ghe8:
+                args:
+                    - --activation=tanh
+                    - --batch_size=16
+                    - --dataset=mnist
+                    - --epochs=10
+                    - --learning_rate=0.0001
+                    - --loss=cross_entropy
+                    - --num_layers=3
+                    - --optimizer=nag
+                    - --wandb_project=da6401_test
+                    - --weight_decay=0.0005
+                    - --weight_init=xavier
+                codePath: src\train.py
+                codePathLocal: src\train.py
+                cpu_count: 4
+                cpu_count_logical: 8
+                disk:
+                    /:
+                        total: "511201767424"
+                        used: "100275863552"
+                email: sumedh2.1203@gmail.com
+                executable: C:\Users\DELL\miniconda3\envs\DA6401\python.exe
+                git:
+                    commit: 729d93b92cc0c0fa7f128dfff015caf3964f4320
+                    remote: https://github.com/Sumedh-1203/DA6401_Assignment1.git
+                host: DESKTOP-3UEJL9V
+                memory:
+                    total: "16910159872"
+                os: Windows-11-10.0.26200-SP0
+                program: C:\Users\DELL\Sumedh\Academics\DA6401\Ass1\da6401_assignment_1\src\train.py
+                python: CPython 3.12.12
+                root: C:\Users\DELL\Sumedh\Academics\DA6401\Ass1\da6401_assignment_1
+                startedAt: "2026-03-07T13:10:00.321571Z"
+                writerId: t03la1celmno527nk5ig1mj5xf80ghe8
+        m: []
+        python_version: 3.12.12
+        t:
+            "1":
+                - 2
+                - 3
+                - 5
+                - 53
+            "2":
+                - 2
+                - 3
+                - 5
+                - 53
+            "3":
+                - 14
+                - 16
+            "4": 3.12.12
+            "5": 0.25.0
+            "8":
+                - 3
+            "12": 0.25.0
+            "13": windows-amd64
+activation:
+    value: tanh
+batch_size:
+    value: 16
+dataset:
+    value: mnist
+epochs:
+    value: 10
+hidden_size:
+    value:
+        - 128
+        - 128
+        - 128
+learning_rate:
+    value: 0.0001
+loss:
+    value: cross_entropy
+model_save_path:
+    value: src/best_model.npy
+num_layers:
+    value: 3
+optimizer:
+    value: nag
+wandb_project:
+    value: da6401_test
+weight_decay:
+    value: 0.0005
+weight_init:
+    value: xavier

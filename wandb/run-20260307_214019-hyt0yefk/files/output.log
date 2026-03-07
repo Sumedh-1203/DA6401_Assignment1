@@ -1,0 +1,22 @@
+Epoch 1/50 - F1: 0.0204
+Epoch 2/50 - F1: 0.0204
+Epoch 3/50 - F1: 0.0204
+Epoch 4/50 - F1: 0.0204
+Epoch 5/50 - F1: 0.0204
+Epoch 6/50 - F1: 0.0204
+Epoch 7/50 - F1: 0.0204
+Epoch 8/50 - F1: 0.0204
+Traceback (most recent call last):
+  File "C:\Users\DELL\Sumedh\Academics\DA6401\Ass1\da6401_assignment_1\src\train.py", line 143, in <module>
+    main()
+  File "C:\Users\DELL\Sumedh\Academics\DA6401\Ass1\da6401_assignment_1\src\train.py", line 81, in main
+    model.train(X_train, y_train, epochs=50, batch_size=args.batch_size)
+  File "C:\Users\DELL\Sumedh\Academics\DA6401\Ass1\da6401_assignment_1\src\ann\neural_network.py", line 118, in train
+    self.backward(y_batch)
+  File "C:\Users\DELL\Sumedh\Academics\DA6401\Ass1\da6401_assignment_1\src\ann\neural_network.py", line 80, in backward
+    dZ = layer.backward(dZ)
+         ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\Sumedh\Academics\DA6401\Ass1\da6401_assignment_1\src\ann\neural_layer.py", line 78, in backward
+    self.grad_W = np.dot(self.X.T, dZ) / m
+                  ^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
