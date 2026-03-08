@@ -38,9 +38,9 @@ def parse_arguments():
     parser.add_argument("-e", "--epochs", type=int, default=10)
     parser.add_argument("-b", "--batch_size", type=int, default=32)
     parser.add_argument("-lr", "--learning_rate", type=float, default=0.001)
-    parser.add_argument("-o", "--optimizer", type=str, default="sgd")
-    parser.add_argument("-nhl", "--num_layers", type=int, default=2)
-    parser.add_argument("-sz", "--hidden_size", type=int, nargs="+", default=[128,128,128])
+    parser.add_argument("-o", "--optimizer", type=str, default="nadam")
+    parser.add_argument("-nhl", "--num_layers", type=int, default=5)
+    parser.add_argument("-sz", "--hidden_size", type=int, nargs="+", default=[128,128,128,128,128])
     parser.add_argument("-a", "--activation", type=str, default="relu")
     parser.add_argument("-l", "--loss", type=str, default="cross_entropy")
     parser.add_argument("-w_i", "--weight_init", type=str, default="xavier")
@@ -80,15 +80,15 @@ def main():
     for epoch in range(args.epochs):
         model.train(X_train, y_train, epochs=1, batch_size=args.batch_size)
 
-        grads = model.layers[0].grad_W
+        # grads = model.layers[0].grad_W
 
-        wandb.log({
-            "grad_n1": np.linalg.norm(grads[:,0]),
-            "grad_n2": np.linalg.norm(grads[:,1]),
-            "grad_n3": np.linalg.norm(grads[:,2]),
-            "grad_n4": np.linalg.norm(grads[:,3]),
-            "grad_n5": np.linalg.norm(grads[:,4])
-        })
+        # wandb.log({
+        #     "grad_n1": np.linalg.norm(grads[:,0]),
+        #     "grad_n2": np.linalg.norm(grads[:,1]),
+        #     "grad_n3": np.linalg.norm(grads[:,2]),
+        #     "grad_n4": np.linalg.norm(grads[:,3]),
+        #     "grad_n5": np.linalg.norm(grads[:,4])
+        # })
 
         grad_norm = np.linalg.norm(model.layers[0].grad_W)
 

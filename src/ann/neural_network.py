@@ -68,12 +68,12 @@ class NeuralNetwork:
             X = layer.forward(X)
         return X
 
-    def backward(self, y_true):
+    def backward(self, logits, y_true):
         grad_W_list = []
         grad_b_list = []
 
         m = y_true.shape[0]
-
+        self.loss_fn.forward(logits, y_true)
         dZ = self.loss_fn.backward(y_true)
 
         for layer in reversed(self.layers):
@@ -115,7 +115,7 @@ class NeuralNetwork:
                 logits = self.forward(X_batch)
                 loss = self.loss_fn.forward(logits, y_batch)
 
-                self.backward(y_batch)
+                self.backward(logits, y_batch)
                 self.update_weights()
 
     def evaluate(self, X, y):
